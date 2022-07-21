@@ -1,15 +1,18 @@
 <template>
   <NavBar :idMenu="idMenu" :key="IdMenu" />
   <router-view @id-menu="setMenu($event)" />
+  <TheFooter :idMenu="idMenu" :key="IdMenu" />
 </template>
 <script>
 import NavBar from '@/components/NavBar.vue'
 import { ref } from 'vue'
+import TheFooter from './components/TheFooter.vue'
 
 export default {
   name: 'App',
   components: {
-    NavBar
+    NavBar,
+    TheFooter
   },
   setup () {
     const idMenu = ref(1)
@@ -27,7 +30,7 @@ export default {
 
 <style>
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
+  font-family: Roboto, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;

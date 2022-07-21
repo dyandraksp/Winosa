@@ -2,6 +2,10 @@
 <ul>
     <li><router-link :class="{active:rl_1}" :to="{ name: 'Home' }">Home</router-link></li>
     <li><router-link :class="{active:rl_2}" :to="{ name: 'About' }">About</router-link></li>
+    <li><router-link :class="{active:rl_3}" :to="{ name: 'Portfolio' }">Portfolio</router-link></li>
+    <li><router-link :class="{active:rl_4}" :to="{ name: 'Partner' }">Partners</router-link></li>
+    <li><router-link :class="{active:rl_5}" :to="{ name: 'Career' }">Career</router-link></li>
+    <li><router-link :class="{active:rl_6}" :to="{ name: 'Contact' }">Contact</router-link></li>
 </ul>
 </template>
 <script>
@@ -16,18 +20,66 @@ export default {
     const rl_1 = ref(false)
     // eslint-disable-next-line camelcase
     const rl_2 = ref(false)
+    // eslint-disable-next-line camelcase
+    const rl_3 = ref(false)
+    // eslint-disable-next-line camelcase
+    const rl_4 = ref(false)
+    // eslint-disable-next-line camelcase
+    const rl_5 = ref(false)
+    // eslint-disable-next-line camelcase
+    const rl_6 = ref(false)
 
     if (props.idMenu === 1) {
       rl_1.value = true
       rl_2.value = false
+      rl_3.value = false
+      rl_4.value = false
+      rl_5.value = false
+      rl_6.value = false
     } else if (props.idMenu === 2) {
       rl_1.value = false
       rl_2.value = true
+      rl_3.value = false
+      rl_4.value = false
+      rl_5.value = false
+      rl_6.value = false
+    } else if (props.idMenu === 3) {
+      rl_1.value = false
+      rl_2.value = false
+      rl_3.value = true
+      rl_4.value = false
+      rl_5.value = false
+      rl_6.value = false
+    } else if (props.idMenu === 4) {
+      rl_1.value = false
+      rl_2.value = false
+      rl_3.value = false
+      rl_4.value = true
+      rl_5.value = false
+      rl_6.value = false
+    } else if (props.idMenu === 5) {
+      rl_1.value = false
+      rl_2.value = false
+      rl_3.value = false
+      rl_4.value = false
+      rl_5.value = true
+      rl_6.value = false
+    } else if (props.idMenu === 6) {
+      rl_1.value = false
+      rl_2.value = false
+      rl_3.value = false
+      rl_4.value = false
+      rl_5.value = false
+      rl_6.value = true
     }
 
     return {
       rl_1,
-      rl_2
+      rl_2,
+      rl_3,
+      rl_4,
+      rl_5,
+      rl_6
     }
   }
 }
@@ -42,7 +94,7 @@ ul {
 }
 
 li {
-   float: left;
+   float: right;
 }
 
 li a {
