@@ -17,13 +17,14 @@
       </div>
     </div>
   </div>
-
+<div class="about">
 <h1>Visi Perusahaan</h1>
 <p>
   Menjadi salah satu perusahaan penyedia jasa konsultan dan
   pengembangan bisnis di bidang IT yang terpercaya untuk memberikan
   solusi yang inovatif dan mampu bersaing dalam skala nasional dan internasional.
 </p>
+<hr/>
 <h1>Misi Perusahaan</h1>
 <p>
   Winosa memiliki misi untuk menjaga dan meningkatkan kualitas profesionalisme.
@@ -32,6 +33,7 @@
   Winosa berkomitmen tinggi dalam setiap pendampingan dan pengembangan bisnis pelanggan.
   Menyediakan sumber daya manusia yang berkualitas sebagai pusat pengembangan dan pendampingan bisnis.
 </p>
+<hr/>
 <h1>Sejarah Perusahaan</h1>
 <p>
   PT Winosa Bharatadjaya didirikan pada tahun 2020 sebagai konsultan bisnis
@@ -42,7 +44,9 @@
   bisnis dan legal, yaitu tim penguji, tim pengembang software, tim design
   beserta tim pendukung pengembangan bisnis untuk pemenuhan permintaan bisnis.
 </p>
-<h1>Sejarah Perusahaan</h1>
+<hr/>
+<h1>Management</h1>
+</div>
 </template>
 
 <script>
@@ -58,3 +62,16 @@ export default {
   methods: {}
 }
 </script>
+<style>
+.about{
+  margin-left: 156px;
+  margin-right: 156px;
+}
+h1{
+  padding-top: 64px;
+  padding-bottom: 24px;
+}
+p{
+  padding-bottom: 64px;
+}
+</style>
