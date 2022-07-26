@@ -47,4 +47,8 @@ h3{
 p{
   text-align: left;
 }
+.body{
+  margin-left: 156px;
+  margin-right: 156px;
+}
 </style>
