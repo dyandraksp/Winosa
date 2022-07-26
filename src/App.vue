@@ -42,6 +42,7 @@ h3{
   padding-bottom: 24px;
   color: black;
   font-size: 32px;
+  font-weight: 600;
 }
 p{
   text-align: left;
