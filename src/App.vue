@@ -43,6 +43,7 @@ h3{
   color: black;
   font-size: 32px;
   font-weight: 600;
+  text-align: center;
 }
 p{
   text-align: left;

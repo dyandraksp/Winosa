@@ -17,7 +17,7 @@
       </div>
     </div>
   </div>
-<h1>Klien Kami</h1>
+<h3>Klien Kami</h3>
 <p>
   Kami sangat fokus pada pelanggan internasional. Kami telah membangun saluran dan pelanggan di UE, Australia, dan Selandia Baru dan saat ini kami sedang memperluas ke wilayah lain.
 </p>
