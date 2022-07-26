@@ -30,10 +30,25 @@ export default {
 
 <style>
 #app {
-  font-family: Roboto, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
+  font-family: Inter, sans-serif;
+  color: #5D5D5D;
+}
+h1{
+  color: white;
+  font-size: 48px;
+  letter-spacing: 3px;
+}
+h3{
+  padding-bottom: 24px;
+  color: black;
+  font-size: 32px;
+  font-weight: 600;
+}
+p{
+  text-align: left;
+}
+.body{
+  margin-left: 156px;
+  margin-right: 156px;
 }
 </style>
