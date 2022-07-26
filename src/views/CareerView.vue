@@ -29,21 +29,49 @@ border: 1px solid #B3B3B3;
 border-radius: 4px; "> <img :src="searchButton" style="width: 24px; height: 24px; width: 24px; height: 24px; left: 948px; top: 745px;" /> cari  </button>
 <p>
   </p>
-  <h1>
+  <h4>
     Daftar Pekerjaan
-  </h1>
+  </h4>
   <p>
-    Kalian diberikan kebebasan untuk mengeksplorasi, menginspirasi, dan tumbuh.</p>
-<p> Dengan cara kerja yang fleksibel dan budaya keterbukaan, kami mendengarkan, terhubung, dan tumbuh bersama untuk membuka potensi penuh Anda.
   </p>
+  <div class="left">
+<a> Kalian diberikan kebebasan untuk mengeksplorasi, menginspirasi, dan tumbuh.</a>
 
+ <a> cara kerja yang fleksibel dan budaya keterbukaan, kami mendengarkan, terhubung, dan tumbuh bersama untuk membuka potensi penuh Anda.
+  </a>
+  </div>
 <div class="wrapper">
   <div class="card" >
     <div class="container">
-    <p>Senior Java and/or .NET Programmer (Developer)</p>
+    <bodycard>Senior Java and/or .NET Programmer (Developer)</bodycard>
     </div>
   </div>
 </div>
+<P>
+</P>
+<div class="wrapper">
+  <div class="card" >
+    <div class="container">
+    <bodycard>Magang Full-Stack Developer (PHP-Java)</bodycard>
+    </div>
+  </div>
+</div>
+<p>
+</p>
+<div class="wrapper">
+  <div class="card" >
+    <div class="container">
+    <bodycard>QA Software Tester</bodycard>
+    </div>
+  </div>
+</div>
+<p>
+</p>
+<p></p>
+<h6>
+Hubungi kami, kami sangat senang bertemu dengan Anda!
+</h6>
+
 </template>
 
 <script>
@@ -67,22 +95,96 @@ export default {
   margin-left: 156px;
   margin-right: 156px;
 }
-h1{
-  padding-top: 16px;
-  padding-bottom: 8px;
+h4{
+width: 600px;
+height: 44px;
+left: 1150px;
+top: 844px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 48px;
+align-items: center;
+color: #000000;
 }
+.text{
+width: 250px;
+height: 60px;
+left: 2000px;
+top: 912px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 150%;
+/* or 30px */
+
+color: #000000;
+
+}
+.bodycard{
+  width: 810px;
+height: 42px;
+left: 148px;
+top: 1022px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 32px;
+line-height: 150%;
+/* or 48px */
+
+color: #000000;
+}
+.left    { text-align: left;}
+   .right   { text-align: right;}
+   .center  { text-align: center;}
+   .justify { text-align: justify;}
+
 p{
   padding-bottom: 24px;
 }
+a{
+  text-align: left;
+  padding-bottom: 24px;
+
+width: 600px;
+height: 44px;
+left: 1150px;
+top: 844px;
+}
 .card{
   width: 1194px;
-  height: 94px;
+  height: 82px;
+  left: 150px;
+
   background: rgba(180, 180, 180, 0.5) ;
   border-radius: 4px;
 }
 
 .card:hover{
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  width: 1194px;
+height: 82px;
+}
+h6{
+width: 1220px;
+height: 38px;
+left: 122px;
+top: 1390px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 150%;
+
+color: #000000;
+
 }
 .wrapper{
   display: flex;
