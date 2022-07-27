@@ -19,7 +19,8 @@
   </div>
 <h3>Klien Kami</h3>
 <p>
-  Kami sangat fokus pada pelanggan internasional. Kami telah membangun saluran dan pelanggan di UE, Australia, dan Selandia Baru dan saat ini kami sedang memperluas ke wilayah lain.
+  Kami sangat fokus pada pelanggan internasional.<br/>
+  Kami telah membangun saluran dan pelanggan di UE, Australia, dan Selandia Baru dan saat ini kami sedang memperluas ke wilayah lain.
 </p>
 <div class="grid-container">
   <div class="item1">
@@ -36,10 +37,18 @@
   </div>
 </div>
 <hr/>
+<div class="grid-container">
+<div lass="item1">
 <h3>Portfolio</h3>
 <p>
  Xdemia percaya bahwa pendidikan dan sains harus dapat diakses oleh siapa saja di mana saja di dunia tanpa investasi yang mahal dan mahal.
 </p>
+<button></button>
+</div>
+<div class="item2">
+  <img/>
+</div>
+</div>
 </template>
 <script>
 export default {
