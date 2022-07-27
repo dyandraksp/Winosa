@@ -35,6 +35,11 @@
     <img :src="img4">
   </div>
 </div>
+<hr/>
+<h3>Portfolio</h3>
+<p>
+ Xdemia percaya bahwa pendidikan dan sains harus dapat diakses oleh siapa saja di mana saja di dunia tanpa investasi yang mahal dan mahal.
+</p>
 </template>
 <script>
 export default {
@@ -66,6 +71,7 @@ export default {
   grid-template-columns: auto auto auto auto;
   grid-gap: 100px;
   padding: 10px;
+  padding-bottom: 64px;
 }
 
 .grid-container > div {
