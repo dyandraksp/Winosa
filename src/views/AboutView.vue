@@ -13,7 +13,7 @@
           :key="idx"
         >
           <img :src="banner" alt="" class="img-fluid" style="height: 570px; width: 100%; object-fit: cover;"/>
-          <button><a href="views/TimView.vue">Tim Kami</a></button>
+          <button></button>
         </div>
       </div>
     </div>
@@ -143,11 +143,5 @@ h4{
   grid-template-columns: auto auto auto auto;
   grid-gap: 100px;
   padding: 10px;
-}
-
-.grid-container > div {
-  text-align: center;
-  padding: 20px 0;
-  font-size: 30px;
 }
 </style>
