@@ -5,15 +5,18 @@
       class="AboutBanner"
       data-ride="banner"
     >
-      <div class="banner-inner">
+      <div class="banner-inner" style="display: flex; flex-direction: column;">
         <div
           class="banner-item"
           v-for="(banner, idx) in banners"
           :class="{ active: idx == 0 }"
           :key="idx"
+          style="display:flex;"
         >
           <img :src="banner" alt="" class="img-fluid" style="height: 570px; width: 100%; object-fit: cover;"/>
-          <button></button>
+          <div style="display:flex;position:absolute">
+            <button style="background-color: #1F1F1F; "><router-link to="/tim">Tim Kami</router-link></button>
+          </div>
         </div>
       </div>
     </div>
