@@ -83,7 +83,7 @@ line-height: 150%;
 color: #5D5D5D;
 ">Nama</label><br>
 
-  <input type="text" id="fname" name="fname" value="Nama Lengkap" style=" text-align: left; margin-left: 160px;left: 110px; width: 500px; height: 48px;
+  <input type="text" id="fname" name="fname" value="Nama Lengkap" style=" opacity:50% ;text-align: left; margin-left: 160px;left: 110px; width: 500px; height: 48px;
 right: 24px;top: 780px; bottom: 46.99%; background: #FFFFFF; border: 1px solid rgba(0, 0, 0, 0.5);
 border-radius: 4px;">
 
@@ -101,11 +101,11 @@ line-height: 150%;
 
 color: #5D5D5D;
 "> Email</label>
- <input type="text" id="fname" name="fname" value="Nama Lengkap" style=" text-align: left; margin-left: 800px;left: 200px; width: 500px; height: 48px;
+ <input type="text" id="fname" name="fname" value="Email@example.com" style=" text-align: left; margin-left: 800px;left: 200px; width: 500px; height: 48px;
 right: 24px;
 top: 780px;
 bottom: 50.91%;
-
+opacity: 50%;
 background: #FFFFFF;
 border: 1px solid rgba(0, 0, 0, 0.5);
 border-radius: 4px;">
@@ -127,7 +127,7 @@ line-height: 150%;
 color: #5D5D5D;
 ">Subject</label><br>
 
-  <input type="text" id="fname" name="fname" value="Subject" style=" text-align: left; margin-left: 160px;left: 110px; width: 500px; height: 48px;
+  <input type="text" id="fname" name="fname" value="Subject" style=" text-align: left; margin-left: 160px;left: 110px; width: 1138px; height: 48px;
 right: 24px;
 top: 780px;
 bottom: 46.99%;
