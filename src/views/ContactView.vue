@@ -110,7 +110,7 @@ background: #FFFFFF;
 border: 1px solid rgba(0, 0, 0, 0.5);
 border-radius: 4px;">
 
-<br><br>
+<br>
  <label for="fname" style="text-align: left; margin-left: 160px;
 left: 11.04%;
 right: 75.49%;
@@ -131,13 +131,50 @@ color: #5D5D5D;
 right: 24px;
 top: 780px;
 bottom: 46.99%;
-
+opacity: 50%;
 background: #FFFFFF;
 border: 1px solid rgba(0, 0, 0, 0.5);
 border-radius: 4px;">
 <br>
+ <label for="fname" style="text-align: left; margin-left: 160px;
+left: 11.04%;
+right: 75.49%;
+top: 1500px;
+bottom: 44.14%;
+font-family: Inter, sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 150%;
+/* or 30px */
 
-  <input type="submit" value="Kirim">
+color: #5D5D5D;
+">Pesan</label><br>
+  <input type="text" id="fname" name="fname"  style="font-family: Inter, sans-serif;
+font-style: normal;
+font-weight: 400; text-align: left; margin-left: 160px; width: 1138px; height: 167px;
+left: 11.11%;
+right: 10.56%;
+top: 1036px;
+bottom: 27.7%;
+opacity: 50%;
+background: #FFFFFF;
+border: 1px solid rgba(0, 0, 0, 0.5);
+border-radius: 4px;line-height: 150%;">
+
+<p></p>
+
+  <input type="submit" value="Kirim" style="display: flex; text-align: right
+flex-direction: row;
+align-items: flex-start;
+padding: 8px 32px;
+width: 122px;
+height: 52px;
+left: calc(50% - 122px/2 + 507px);
+top: calc(50% - 52px/2 + 466px);
+margin-left: 1173px;
+background: #CEA206;
+border-radius: 4px;">
 
 </form>
 </body>
@@ -198,5 +235,19 @@ line-height: 66px;
 letter-spacing: 3px;
 
 color: #000000;
+}
+button{
+  display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 8px 32px;
+
+width: 122px;
+height: 52px;
+left: calc(50% - 122px/2 + 507px);
+top: calc(50% - 52px/2 + 466px);
+
+background: #CEA206;
+border-radius: 4px;
 }
 </style>
