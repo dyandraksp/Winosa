@@ -51,13 +51,25 @@ line-height: 24px;
 color: #5D5D5D;">
  Xdemia percaya bahwa pendidikan dan sains harus dapat diakses oleh siapa saja di mana saja di dunia tanpa investasi yang mahal dan mahal.
 </p>
-<button>Selegkapnya</button>
+<button style="width:170px; height: 40px; padding-bottom: 8px;">Selegkapnya</button>
 </div>
 <div class="item2">
   <img :src="mockup" style="width: 640px; height: 413px;"/>
 </div>
 </div>
 <hr/>
+<h3>Layanan</h3>
+</div>
+<div class="grid-container">
+  <div class="item1">
+    <img :src="img5" style="width:86px; height:100px;">
+  </div>
+  <div class="item2">
+    <img :src="img6" style="width:86px; height:100px;">
+  </div>
+  <div class="item3">
+    <img :src="img7" style="width:86px; height:100px;">
+  </div>
 </div>
 </template>
 <script>
@@ -82,6 +94,15 @@ export default {
       ],
       mockup: [
         'https://i.pinimg.com/564x/24/54/e2/2454e28dc8d6f7c1ab19ffc2ef1cd8bc.jpg'
+      ],
+      img5: [
+        'https://i.pinimg.com/564x/53/ff/e4/53ffe47438ce6571cffc5b48d1548756.jpg'
+      ],
+      img6: [
+        'https://i.pinimg.com/564x/43/08/c6/4308c628b78ac17ca291fed2a1e86180.jpg'
+      ],
+      img7: [
+        'https://i.pinimg.com/564x/4b/62/4c/4b624c2560fce5e378f21a75269292f2.jpg'
       ]
     }
   }
@@ -111,10 +132,6 @@ img{
 button{
   float: left;
   font-size: 20px;
-  padding-left: 16px;
-  padding-right: 16px;
-  padding-bottom: 8px;
-  padding-top: 8px;
   background-color: #CEA206;
   color: white;
   border: 0;
