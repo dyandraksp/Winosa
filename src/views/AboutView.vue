@@ -14,8 +14,8 @@
           style="display:flex;"
         >
           <img :src="banner" alt="" class="img-fluid" style="height: 570px; width: 100%; object-fit: cover;"/>
-          <div style="display:flex;position:absolute">
-            <button style="background-color: #1F1F1F; "><router-link to="/tim">Tim Kami</router-link></button>
+          <div class="btn">
+            <button style="background-color: #1F1F1F; height: 43px; width: 114px; font-size: 18px; padding: 8px 16px;"><router-link to="/tim">Tim Kami</router-link></button>
           </div>
         </div>
       </div>
@@ -146,5 +146,12 @@ h4{
   grid-template-columns: auto auto auto auto;
   grid-gap: 100px;
   padding: 10px;
+}
+.btn{
+  display:flex;
+  position:absolute;
+  left: 150px;
+  top: 65px;
+  padding: 0px;
 }
 </style>

@@ -1,5 +1,5 @@
 <template>
-  <NavBar :idMenu="idMenu" :key="IdMenu" />
+  <NavBar :idMenu="idMenu" :key="IdMenu" class="asd"/>
   <router-view @id-menu="setMenu($event)" />
   <TheFooter :idMenu="idMenu" :key="IdMenu" />
 </template>
@@ -51,5 +51,8 @@ p{
 .body{
   margin-left: 156px;
   margin-right: 156px;
+}
+.asd{
+  position: absolute;
 }
 </style>
