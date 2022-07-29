@@ -70,7 +70,14 @@ text-align: center;
 
 color: #5D5D5D; text-align: left; margin-left: 160px;"> Kirimkan saja permintaan anda dan kami akan menemukan  solusi terbaik untuk anda </a>
 <p></p>
+<head>
+
+</head>
+</body>
+<body>
+
 <form action="/action_page.php">
+<div class="grid-container">
   <label for="fname" style="text-align: left; margin-left: 160px;
 
 font-family: Inter, sans-serif;
@@ -78,38 +85,17 @@ font-style: normal;
 font-weight: 400;
 font-size: 20px;
 line-height: 150%;
+margin-right: 1137px;
 /* or 30px */
 
 color: #5D5D5D;
 ">Nama</label><br>
-
-  <input type="text" id="fname" name="fname" value="Nama Lengkap" style=" opacity:50% ;text-align: left; margin-left: 160px;left: 110px; width: 500px; height: 48px;
+</div>
+  <div>Email</div>
+   <div><input type="text" id="fname" name="fname" value="Nama Lengkap" style=" opacity:50% ;text-align: left; margin-left: 160px;left: 110px; width: 500px; height: 48px;
 right: 24px;top: 780px; bottom: 46.99%; background: #FFFFFF; border: 1px solid rgba(0, 0, 0, 0.5);
-border-radius: 4px;">
-
-  <label for="lname" style="text-align: left; margin-left: 140px; left: 200px;
-right: 33.96%;
-top: 780px;
-bottom: 50.91%;
-
-font-family: Inter, sans-serif;
-font-style: normal;
-font-weight: 400;
-font-size: 20px;
-line-height: 150%;
-/* or 30px */
-
-color: #5D5D5D;
-"> Email</label>
- <input type="text" id="fname" name="fname" value="Email@example.com" style=" text-align: left; margin-left: 800px;left: 200px; width: 500px; height: 48px;
-right: 24px;
-top: 780px;
-bottom: 50.91%;
-opacity: 50%;
-background: #FFFFFF;
-border: 1px solid rgba(0, 0, 0, 0.5);
-border-radius: 4px;">
-
+border-radius: 4px;">s</div>
+  <div>2</div>
 <br>
  <label for="fname" style="text-align: left; margin-left: 160px;
 left: 11.04%;
@@ -175,7 +161,7 @@ top: calc(50% - 52px/2 + 466px);
 margin-left: 1173px;
 background: #CEA206;
 border-radius: 4px;">
-
+<p></p>
 </form>
 </body>
 </html>
@@ -249,5 +235,19 @@ top: calc(50% - 52px/2 + 466px);
 
 background: #CEA206;
 border-radius: 4px;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 10px;
+  background-color: #ffff;
+  padding: 10px;
+}
+
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid black;
+  text-align: center;
+  font-size: 30px;
 }
 </style>

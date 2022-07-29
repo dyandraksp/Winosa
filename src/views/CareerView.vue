@@ -19,31 +19,55 @@
   </div>
   <p>
   </p>
- <input type="search" style="box-sizing: border-box; width: 564px; height: 64px; left: 377px; top: 725px;
-
+ <input type="search" style="margin-left: 300px; box-sizing: border-box; width: 564px; height: 64px; left: 377px; top: 725px;
 background: #FFFFFF;
 border: 1px solid #B3B3B3;
 border-radius: 4px; ;"/>
- <button style="width: 142px; height: 64px; left: 921px; top: 725px; background: #BFBFBF;
+ <button style="margin-left: 37px; width: 142px; height: 64px; left: 921px; margin-top: 25px; background: #BFBFBF;
 border: 1px solid #B3B3B3;
-border-radius: 4px; "> <img :src="searchButton" style="width: 24px; height: 24px; width: 24px; height: 24px; left: 948px; top: 745px;" /> cari  </button>
+border-radius: 4px; position: relative;"> <img :src="searchButton" style="width: 24px; height: 24px; width: 24px; height: 24px; left: 948px; top: 745px;" /> cari  </button>
 <p>
   </p>
-  <h4>
+  <a style="margin-left: 160px;width: 347px;
+height: 44px;
+left: 120px;
+top: 844px;
+
+font-family: Inter,sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 48px;
+
+color: #000000;
+">
     Daftar Pekerjaan
-  </h4>
+  </a>
   <p>
   </p>
   <div class="left">
-<a> Kalian diberikan kebebasan untuk mengeksplorasi, menginspirasi, dan tumbuh.</a>
+<a style="margin-left: 160px; width: 1194px;
+height: 60px;
+left: 121px;
+top: 912px;
 
- <a> cara kerja yang fleksibel dan budaya keterbukaan, kami mendengarkan, terhubung, dan tumbuh bersama untuk membuka potensi penuh Anda.
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 150%;
+/* or 30px */
+
+color: #000000;
+"> Kalian diberikan kebebasan untuk mengeksplorasi, menginspirasi, dan tumbuh.
+<br/>cara kerja yang fleksibel dan budaya keterbukaan, kami mendengarkan, terhubung, dan tumbuh bersama untuk membuka potensi penuh Anda.
   </a>
   </div>
-<div class="wrapper">
+  <br>
+  <div class="wrapper">
   <div class="card" >
     <div class="container">
-    <bodycard>Senior Java and/or .NET Programmer (Developer)</bodycard>
+    <bodycard action="/detailcareer.vue">Senior Java and/or .NET Programmer (Developer)</bodycard>
     </div>
   </div>
 </div>
