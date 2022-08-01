@@ -1,18 +1,19 @@
 <template>
-<div class="" style="align-items: center;">
+<div class="">
     <div
-      id="carouselExampleSlidesOnly"
-      class="carousel slide"
-      data-ride="carousel"
+      id="bannerAbout"
+      class="AboutBanner"
+      data-ride="banner"
     >
-      <div class="carousel-inner">
+      <div class="banner-inner" style="display: flex; flex-direction: column;">
         <div
-          class="carousel-item"
+          class="banner-item"
           v-for="(banner, idx) in banners"
           :class="{ active: idx == 0 }"
           :key="idx"
+          style="display:flex;"
         >
-          <img :src="banner" alt="" class="img-fluid" style="width: 100%; height: 570px; object-fit: cover; " />
+          <img :src="banner" alt="" class="img-fluid" style="height: 570px; width: 100%; object-fit: cover;"/>
         </div>
       </div>
     </div>
