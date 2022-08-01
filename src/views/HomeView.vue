@@ -115,6 +115,7 @@ export default {
   grid-gap: 100px;
   padding: 10px;
   padding-bottom: 64px;
+  border:0px;
 }
 
 .grid-container > div {
