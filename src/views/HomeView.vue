@@ -19,7 +19,7 @@
   </div>
   <div class="body">
 <h3>Klien Kami</h3>
-<p>
+<p style="text-align:center;">
   Kami sangat fokus pada pelanggan internasional.<br/>
   Kami telah membangun saluran dan pelanggan di UE, Australia, dan Selandia Baru dan saat ini kami sedang memperluas ke wilayah lain.
 </p>
@@ -51,7 +51,7 @@ line-height: 24px;
 color: #5D5D5D;">
  Xdemia percaya bahwa pendidikan dan sains harus dapat diakses oleh siapa saja di mana saja di dunia tanpa investasi yang mahal dan mahal.
 </p>
-<button style="width:170px; height: 40px; padding-bottom: 8px;">Selegkapnya</button>
+<button style="width:170px; height: 40px; padding-bottom: 8px;">Selengkapnya</button>
 </div>
 <div class="item2">
   <img :src="mockup" style="width: 640px; height: 413px;"/>
@@ -63,13 +63,55 @@ color: #5D5D5D;">
 <div class="grid-container">
   <div class="item1">
     <img :src="img5" style="width:86px; height:100px;">
+     <h4 style="text-align: center;">Bussines Development</h4> <br/>
+     <p>
+       1. Create cultural awareness
+
+2. Market research and introduction
+
+3. Conducting consumer and business insights
+
+4. Introduction to local business partners
+
+5. Marketing campaign
+
+6. Setting up your branch office
+</p>
+
   </div>
   <div class="item2">
     <img :src="img6" style="width:86px; height:100px;">
+     <h4 style="text-align: center;">Outsourcing</h4> <br>
+     <p>
+       We provide offshore services to support you in developing the next generation killer application. Whether you need test analysts, full stack, frontend or backend developers for your web or mobile applications you can partner with us to extend your local development team or fully outsource development and testing to Winosa. Either way, you will have full control over the extended team who will be part of your daily scrums. This means that on a daily basis, you are in charge of everything from work hours to the planning of sprints. During your project, we are here to take care of all the administration, so you can focus on your business.
+      </p>
   </div>
   <div class="item3">
     <img :src="img7" style="width:86px; height:100px;">
+     <h4 style="text-align: center;">Legal</h4> <br>
+     <p>
+       Once you decide to enter the Indonesian market our Legal advisors will guide you through all the necessary legal, bureaucratic and tax-office requirements. Our Legal officers offer a one-shop all-in-one service so you can focus on your business.
+      </p>
   </div>
+</div>
+<div class="grid-container" style="grid-gap: 0px;">
+<div class="item1">
+  <img :src="vector" style="width: 640px; height: 413px;"/>
+</div>
+<div class="item2">
+  <h4 style="
+width: 505px;
+height: 74px;
+left: 155px;
+top: 1256px;
+line-height: 24px;
+font-weight: 600;
+color: black;
+text-align:left;">
+Apakah Anda Berminat Bisnis Dengan Kami?
+</h4>
+<button style="width:168px; height: 40px; padding: 8px 16px; font-size: 20px; ">Hubungi Kami</button>
+</div>
 </div>
 </template>
 <script>
@@ -103,6 +145,9 @@ export default {
       ],
       img7: [
         'https://i.pinimg.com/564x/4b/62/4c/4b624c2560fce5e378f21a75269292f2.jpg'
+      ],
+      vector: [
+        'https://i.pinimg.com/564x/a8/d5/0d/a8d50df8f29cbb8ebe4aa523796a2a15.jpg'
       ]
     }
   }
