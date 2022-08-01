@@ -1,11 +1,11 @@
 <template>
 <ul>
-    <li style="margin-left: 152px; margin-right: 570px;"><router-link :class="{active:rl_1}" :to="{ name: 'Home' }">Home</router-link></li>
-    <li><router-link :class="{active:rl_2}" :to="{ name: 'About' }">About</router-link></li>
-    <li><router-link :class="{active:rl_3}" :to="{ name: 'Portfolio' }">Portfolio</router-link></li>
-    <li><router-link :class="{active:rl_4}" :to="{ name: 'Partner' }">Partners</router-link></li>
-    <li><router-link :class="{active:rl_5}" :to="{ name: 'Career' }">Career</router-link></li>
-    <li style="margin-right: 152px;"><router-link :class="{active:rl_6}" :to="{ name: 'Contact' }">Contact</router-link></li>
+    <li style="margin-left: 152px; margin-right: 570px;"><router-link :class="{active:rl_1}" :to="{ name: 'Home' }"> <img src="../assets/winosa.png"/></router-link></li>
+    <li style="padding-top: 12px;"><router-link :class="{active:rl_2}" :to="{ name: 'About' }">ABOUT</router-link></li>
+    <li style="padding-top: 12px;"><router-link :class="{active:rl_3}" :to="{ name: 'Portfolio' }">PORTFOLIO</router-link></li>
+    <li style="padding-top: 12px;"><router-link :class="{active:rl_4}" :to="{ name: 'Partner' }">PARTNERS</router-link></li>
+    <li style="padding-top: 12px;"><router-link :class="{active:rl_5}" :to="{ name: 'Career' }">CAREER</router-link></li>
+    <li style="margin-right: 152px; padding-top: 12px;"><router-link :class="{active:rl_6}" :to="{ name: 'Contact' }">CONTACT</router-link></li>
 </ul>
 </template>
 <script>
@@ -102,7 +102,7 @@ li a {
     display: block;
     color: white;
     text-align: center;
-    padding: 14px 16px;
+    padding: 8px;
     text-decoration: none;
 }
 
@@ -110,7 +110,8 @@ li a:hover:not(.active) {
     background-color: #111;
 }
 
-.active {
-    background-color: #4CAF50;
+img{
+  width: 48px;
+  height: 48px;
 }
 </style>

@@ -33,10 +33,13 @@ export default {
   font-family: Inter, sans-serif;
   color: #5D5D5D;
 }
-h1{
+h2{
   color: white;
   font-size: 48px;
   letter-spacing: 3px;
+  margin-left: 156px;
+  font-weight: bold;
+  top : 309px;
 }
 h3{
   padding-bottom: 24px;
@@ -54,5 +57,6 @@ p{
 }
 .asd{
   position: absolute;
+  width: 1440px;
 }
 </style>

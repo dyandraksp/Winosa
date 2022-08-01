@@ -5,14 +5,27 @@
       class="AboutBanner"
       data-ride="banner"
     >
-      <div class="banner-inner">
+      <div class="banner-inner" style="display: flex; flex-direction: column;">
         <div
           class="banner-item"
           v-for="(banner, idx) in banners"
           :class="{ active: idx == 0 }"
           :key="idx"
+          style="display:flex;"
         >
-          <img :src="banner" alt="" class="img-fluid" style="height: 570px; width: 100%; object-fit: cover;"/>
+          <img :src="banner" alt="" class="img-fluid" style="height: 570px; width: 1440px; object-fit: cover;"/>
+          <div class="circle">
+            <div class="header-banner">
+            <h2>ABOUT US</h2>
+            <p style="color:white; margin-left: 156px; font-size: 20px; font-weight: 480;">Kami adalah multi-budaya yang terdiri dari orang-<br/>
+              orang yang antusias, bersemangat, dan <br/>
+              berorientasi pada target. Kami menantikan untuk <br/>
+              bekerjasama dan mendukung bisnis anda.</p>
+          <div class="btn">
+            <button style="background-color: #1F1F1F; height: 43px; width: 114px; font-size: 18px; padding: 8px 16px;"><router-link to="/tim">Tim Kami</router-link></button>
+          </div>
+          </div>
+          </div>
         </div>
       </div>
     </div>

@@ -13,9 +13,18 @@
           :key="idx"
           style="display:flex;"
         >
-          <img :src="banner" alt="" class="img-fluid" style="height: 570px; width: 100%; object-fit: cover;"/>
+          <img :src="banner" alt="" class="img-fluid" style="height: 570px; width: 1440px; object-fit: cover;"/>
+          <div class="circle">
+            <div class="header-banner">
+            <h2>ABOUT US</h2>
+            <p style="color:white; margin-left: 156px; font-size: 20px; font-weight: 480;">Kami adalah multi-budaya yang terdiri dari orang-<br/>
+              orang yang antusias, bersemangat, dan <br/>
+              berorientasi pada target. Kami menantikan untuk <br/>
+              bekerjasama dan mendukung bisnis anda.</p>
           <div class="btn">
             <button style="background-color: #1F1F1F; height: 43px; width: 114px; font-size: 18px; padding: 8px 16px;"><router-link to="/tim">Tim Kami</router-link></button>
+          </div>
+          </div>
           </div>
         </div>
       </div>
@@ -50,7 +59,7 @@
 </p>
 <hr/>
 <h3>Management</h3>
-<div class="grid-container">
+<div class="grid-container" style="display: flex; align-items: center; justify-content: center; ">
 <div class="item1">
 <div class="card">
   <img :src="img_samira" style="width:281px; height: 259px; object-fit: cover;">
@@ -140,18 +149,33 @@ h4{
   color: black;
   padding-top: 24px;
   font-size: 24px;
+  text-align: center;
 }
 .grid-container {
   display: grid;
   grid-template-columns: auto auto auto auto;
-  grid-gap: 100px;
+  grid-gap: 48px;
   padding: 10px;
 }
 .btn{
   display:flex;
   position:absolute;
   left: 150px;
-  top: 65px;
   padding: 0px;
+  top: 200px;
+  bottom: 78.97%;
+}
+.circle{
+  position: absolute;
+  width: 744.25px;
+  height: 481px;
+  left: 0px;
+  top: 89px;
+  border-radius: 100% 100% 0px 0px;
+
+  background: #CEA206;
+}
+.header-banner{
+  top: 300px;
 }
 </style>
