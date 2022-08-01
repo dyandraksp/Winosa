@@ -64,7 +64,7 @@
 <div class="card">
   <img :src="img_samira" style="width:281px; height: 259px; object-fit: cover;">
   <div class="container">
-    <h4><b>Samira Kamal<br/>(Director)</b></h4>
+    <h4 style="text-align: center;"><b>Samira Kamal<br/>(Director)</b></h4>
     <p style="font-size: 16px; padding-left: ; padding-right: ; text-align: center;">Business development, Food and Beverage
      <br/>Languages: Indonesian, English and Dutch</p>
   </div>
@@ -74,7 +74,7 @@
 <div class="card">
   <img :src="img_samira" style="width:281px; height: 259px; object-fit: cover;">
   <div class="container">
-    <h4><b>Ina Sundari <br/>(Director)</b></h4>
+    <h4 style="text-align: center;"><b>Ina Sundari <br/>(Director)</b></h4>
     <p style="font-size: 16px; padding-left: ; padding-right: ; text-align: center;">Business development, Real estate
     <br/>Languages: Indonesian and English</p>
   </div>
@@ -84,7 +84,7 @@
 <div class="card">
   <img :src="img_samira" style="width:281px; height: 259px; object-fit: cover;">
   <div class="container">
-    <h4><b>Billy Bharatadjaya <br/> (General Manager) </b></h4>
+    <h4 style="text-align: center;"><b>Billy Bharatadjaya <br/> (General Manager) </b></h4>
     <p style="font-size: 16px; padding-left: ; padding-right: ; text-align: center;">Business development, Strategic alliances
     <br/> Indonesian, Dutch and English</p>
   </div>
@@ -149,7 +149,6 @@ h4{
   color: black;
   padding-top: 24px;
   font-size: 24px;
-  text-align: center;
 }
 .grid-container {
   display: grid;

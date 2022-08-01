@@ -16,14 +16,11 @@
           <img :src="banner" alt="" class="img-fluid" style="height: 570px; width: 1440px; object-fit: cover;"/>
           <div class="circle">
             <div class="header-banner">
-            <h2>ABOUT US</h2>
+            <h2>TEAM</h2>
             <p style="color:white; margin-left: 156px; font-size: 20px; font-weight: 480;">Kami adalah multi-budaya yang terdiri dari orang-<br/>
               orang yang antusias, bersemangat, dan <br/>
               berorientasi pada target. Kami menantikan untuk <br/>
               bekerjasama dan mendukung bisnis anda.</p>
-          <div class="btn">
-            <button style="background-color: #1F1F1F; height: 43px; width: 114px; font-size: 18px; padding: 8px 16px;"><router-link to="/tim">Tim Kami</router-link></button>
-          </div>
           </div>
           </div>
         </div>
@@ -183,6 +180,7 @@ h4{
   color: black;
   padding-top: 12px;
   font-size: 24px;
+  text-align: left;
 }
 
 p{
