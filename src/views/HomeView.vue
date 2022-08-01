@@ -96,10 +96,11 @@ color: #5D5D5D;">
 </div>
 <div class="grid-container" style="grid-gap: 0px;">
 <div class="item1">
-  <img :src="vector" style="width: 640px; height: 413px;"/>
+  <img :src="vector" style="width: 431px; height: 431px;"/>
 </div>
 <div class="item2">
   <h4 style="
+  margin-top: 155px;
 width: 505px;
 height: 74px;
 left: 155px;
@@ -110,7 +111,7 @@ color: black;
 text-align:left;">
 Apakah Anda Berminat Bisnis Dengan Kami?
 </h4>
-<button style="width:168px; height: 40px; padding: 8px 16px; font-size: 20px; ">Hubungi Kami</button>
+<button style="width:168px; height: 40px; padding: 8px 16px; font-size: 20px; margin-top: 14px;">Hubungi Kami</button>
 </div>
 </div>
 </template>
