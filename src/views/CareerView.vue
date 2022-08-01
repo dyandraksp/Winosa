@@ -60,40 +60,123 @@ line-height: 150%;
 /* or 30px */
 
 color: #000000;
-"> Kalian diberikan kebebasan untuk mengeksplorasi, menginspirasi, dan tumbuh.
-<br/>cara kerja yang fleksibel dan budaya keterbukaan, kami mendengarkan, terhubung, dan tumbuh bersama untuk membuka potensi penuh Anda.
+"> Kalian diberikan kebebasan untuk mengeksplorasi, menginspirasi, dan tumbuh.</a>
+<br>
+<a style="margin-left: 160px; width: 1194px;
+height: 60px;
+left: 121px;
+top: 912px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 150%;
+/* or 30px */
+
+color: #000000;">Cara kerja yang fleksibel dan budaya keterbukaan, kami mendengarkan, terhubung, dan tumbuh bersama untuk membuka potensi penuh Anda.
   </a>
   </div>
   <br>
   <div class="wrapper">
-  <div class="card" >
+  <div class="card" style="margin-left: 40px ; position: absolute;
+width: 1194px;
+height: 94px;
+left: 122px;
+top: 1050px;
+
+background: rgba(180, 180, 180, 0.25);
+border-radius: 4px;" >
     <div class="container">
-    <bodycard action="/detailcareer.vue">Senior Java and/or .NET Programmer (Developer)</bodycard>
+    <bodycard style="width: 810px;
+height: 42px;
+left: 148px;
+top: 1100x;
+font-family: Inter, sans-serif;
+font-style: medium;
+font-weight: 500;
+font-size: 32px;
+line-height: 150%;
+/* or 48px */
+
+color: #000000;">Senior Java and/or .NET Programmer (Developer)</bodycard>
     </div>
   </div>
 </div>
 <P>
 </P>
-<div class="wrapper">
-  <div class="card" >
+<br>
+<br>
+<div class="wrapper" >
+  <div class="card" style="margin-left: 40px ; position: absolute;
+width: 1194px;
+height: 94px;
+left: 122px;
+top: 1170px;
+
+background: rgba(180, 180, 180, 0.25);
+border-radius: 4px;">
     <div class="container">
-    <bodycard>Magang Full-Stack Developer (PHP-Java)</bodycard>
+    <bodycard style="width: 810px;
+height: 42px;
+left: 148px;
+top: 1100x;
+font-family: Inter, sans-serif;
+font-style: medium;
+font-weight: 500;
+font-size: 32px;
+line-height: 150%;
+/* or 48px */
+
+color: #000000;">Magang Full-Stack Developer (PHP-Java)</bodycard>
     </div>
   </div>
 </div>
 <p>
 </p>
 <div class="wrapper">
-  <div class="card" >
+  <div class="card" style="margin-left: 40px ; ; position: absolute;
+width: 1194px;
+height: 94px;
+left: 122px;
+top: 1290px;
+
+background: rgba(180, 180, 180, 0.25);
+border-radius: 4px;">
     <div class="container">
-    <bodycard>QA Software Tester</bodycard>
+    <bodycard style="width: 810px;
+height: 42px;
+left: 148px;
+top: 1100x;
+font-family: Inter, sans-serif;
+font-style: medium;
+font-weight: 500;
+font-size: 32px;
+line-height: 150%;
+/* or 48px */
+
+color: #000000;">QA Software Tester</bodycard>
     </div>
   </div>
 </div>
 <p>
 </p>
 <p></p>
-<h6>
+<h6 style="margin-left: 160px;
+width: 657px;
+height: 38px;
+left: 122px;
+top: 1390px;
+
+font-family: Inter, sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 150%;
+/* or 30px */
+
+color: #000000;
+">
 Hubungi kami, kami sangat senang bertemu dengan Anda!
 </h6>
 

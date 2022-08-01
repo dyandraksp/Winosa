@@ -28,7 +28,20 @@
 <body>
 
 <div class="sidenav" >
-  <h1>Hubungi Kami</h1>
+  <h1 style="position: absolute;
+width: 534px;
+height: 84px;
+left: 158px;
+top: 280px;
+
+font-family: Inter, sans-serif ;
+font-style: normal;
+font-weight: 700;
+font-size: 56px;
+line-height: 66px;
+letter-spacing: 3px;
+
+color: #000000;">Hubungi Kami</h1>
  <a style="position: absolute;
 width: 400px;
 height: 84px;
@@ -66,7 +79,7 @@ font-size: 20px;
 line-height: 150%;
 /* or 30px */
 
-text-align: center;
+text-align: left;
 
 color: #5D5D5D; text-align: left; margin-left: 160px;"> Kirimkan saja permintaan anda dan kami akan menemukan  solusi terbaik untuk anda </a>
 <p></p>
@@ -111,6 +124,7 @@ border: 1px solid rgba(0, 0, 0, 0.5);
 border-radius: 4px;">
 
 <br>
+<a></a>
  <label for="fname" style="text-align: left; margin-left: 160px;
 left: 11.04%;
 right: 75.49%;
@@ -135,7 +149,7 @@ opacity: 50%;
 background: #FFFFFF;
 border: 1px solid rgba(0, 0, 0, 0.5);
 border-radius: 4px;">
-<br>
+<p></p>
  <label for="fname" style="text-align: left; margin-left: 160px;
 left: 11.04%;
 right: 75.49%;
@@ -162,7 +176,9 @@ background: #FFFFFF;
 border: 1px solid rgba(0, 0, 0, 0.5);
 border-radius: 4px;line-height: 150%;">
 
-<p></p>
+<p style="padding-bottom: 64px;
+  font-size: 20px;
+  text-align: left;"></p>
 
   <input type="submit" value="Kirim" style="display: flex; text-align: right
 flex-direction: row;
@@ -219,22 +235,6 @@ body {
 .content {
   margin-left: 600px;
   padding-left: 20px;
-}
-h1{
-position: absolute;
-width: 534px;
-height: 84px;
-left: 158px;
-top: 280px;
-
-font-family: Inter, sans-serif ;
-font-style: normal;
-font-weight: 700;
-font-size: 56px;
-line-height: 66px;
-letter-spacing: 3px;
-
-color: #000000;
 }
 button{
   display: flex;
