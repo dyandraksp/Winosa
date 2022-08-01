@@ -17,7 +17,7 @@
           <div class="circle">
             <div class="header-banner">
             <h2>PARTNERS</h2>
-            <p style="color:white; margin-left: 156px; font-size: 20px; font-weight: 480;">Kami adalah multi-budaya yang terdiri dari orang-<br/>
+            <p style="color:white; margin-left: 156px; font-size: 20px; font-weight: 480;">
              Lorem ipsum dolor sit amet, consectetur adipiscing <br/>
              elit. Sed nibh purus, dapibus in semper nec, venenatis <br/>
              vel elit. Nam id sem tristique lorem porttitor faucibus <br/>
