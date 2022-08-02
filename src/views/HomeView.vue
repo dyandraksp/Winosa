@@ -79,14 +79,14 @@ color: #5D5D5D;">
 
   </div>
   <div class="item2">
-    <img :src="img6" style="width:86px; height:100px;">
+    <img :src="img6" style="width:86px; height:75px; object-fit: fill;">
      <h4 style="text-align: center;">Outsourcing</h4> <br>
      <p>
        We provide offshore services to support you in developing the next generation killer application. Whether you need test analysts, full stack, frontend or backend developers for your web or mobile applications you can partner with us to extend your local development team or fully outsource development and testing to Winosa. Either way, you will have full control over the extended team who will be part of your daily scrums. This means that on a daily basis, you are in charge of everything from work hours to the planning of sprints. During your project, we are here to take care of all the administration, so you can focus on your business.
       </p>
   </div>
   <div class="item3">
-    <img :src="img7" style="width:86px; height:100px;">
+    <img :src="img7" style="width:86px; height:75px; object-fit: fill;">
      <h4 style="text-align: center;">Legal</h4> <br>
      <p>
        Once you decide to enter the Indonesian market our Legal advisors will guide you through all the necessary legal, bureaucratic and tax-office requirements. Our Legal officers offer a one-shop all-in-one service so you can focus on your business.
