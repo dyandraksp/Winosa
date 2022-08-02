@@ -92,6 +92,7 @@ ul {
     overflow: hidden;
     background-color: #1F1F1F;
     opacity: 50%;
+    width: 100%;
 }
 
 li {

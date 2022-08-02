@@ -13,7 +13,7 @@
           :key="idx"
           style="display:flex;"
         >
-          <img :src="banner" alt="" class="img-fluid" style="height: 570px; width: 1440px; object-fit: cover;"/>
+          <img :src="banner" alt="" class="img-fluid" style="height: 570px; width: 100%; object-fit: cover;"/>
           <div class="circle">
             <div class="header-banner">
             <h2>ABOUT US</h2>

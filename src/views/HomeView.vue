@@ -59,10 +59,9 @@ color: #5D5D5D;">
 </div>
 <hr/>
 <h3>Layanan</h3>
-</div>
 <div class="grid-container">
   <div class="item1">
-    <img :src="img5" style="width:86px; height:100px;">
+    <img :src="img5" style="width:86px; height:75px; object-fit: fill;">
      <h4 style="text-align: center;">Bussines Development</h4> <br/>
      <p>
        1. Create cultural awareness
@@ -112,6 +111,7 @@ text-align:left;">
 Apakah Anda Berminat Bisnis Dengan Kami?
 </h4>
 <button style="width:168px; height: 40px; padding: 8px 16px; font-size: 20px; margin-top: 14px;">Hubungi Kami</button>
+</div>
 </div>
 </div>
 </template>

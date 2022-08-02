@@ -1,6 +1,6 @@
 <template>
   <!-- Footer -->
-  <MDBFooter bg="dark" :text="['white']" style="width: 1440px;">
+  <MDBFooter bg="dark" :text="['white']">
     <!-- Grid container -->
     <MDBContainer class="p-4">
       <section class="">

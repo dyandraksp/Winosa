@@ -13,7 +13,7 @@
           :key="idx"
           style="display:flex;"
         >
-          <img :src="banner" alt="" class="img-fluid" style="height: 570px; width: 1440px; object-fit: cover;"/>
+          <img :src="banner" alt="" class="img-fluid" style="height: 570px; width: 100%; object-fit: cover;"/>
           <div class="circle">
             <div class="header-banner">
             <h2>TEAM</h2>
@@ -129,7 +129,19 @@
   </div>
 </div>
 </div>
+<div class="item2">
+<div class="card">
+  <img :src="img_samira" style="width:281px; height: 322px; object-fit: cover;">
+  <div class="container">
+    <h4><b>Mauli Maro</b></h4>
+    <p>Jr. Content Creator</p>
+  </div>
 </div>
+</div>
+</div>
+</div>
+<div class="join_us">
+  <img src="../assets/join_us.jpg" style="width: 100%; height: 366px; object-fit: cover; opacity: 75%; margin: 0;" />
 </div>
 </template>
 <script>
@@ -194,11 +206,19 @@ p{
   grid-template-columns: auto auto auto auto;
   grid-gap: 48px;
   padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .grid-container > div {
   text-align: center;
   padding: 20px 0;
   font-size: 30px;
+}
+
+.join_us{
+  display: flex;
+  height: 366px;
 }
 </style>
