@@ -6,6 +6,7 @@ import Partner from '../views/PartnerView'
 import Career from '../views/CareerView'
 import Contact from '../views/ContactView'
 import Tim from '../views/TimView'
+import detailcareer1 from '../views/detailcareer1'
 
 const routes = [
   {
@@ -42,6 +43,11 @@ const routes = [
     path: '/tim',
     name: 'Tim',
     component: Tim
+  },
+  {
+    path: '/detailcareer1',
+    name: 'detailcareer1',
+    component: detailcareer1
   }
 ]
 
