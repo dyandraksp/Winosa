@@ -20,13 +20,13 @@
   </div>
   <p>
   </p>
- <input type="search" style="margin-left: 300px; box-sizing: border-box; width: 564px; height: 64px; left: 377px; top: 725px;
+ <input type="search" style="margin-left: 215px; box-sizing: border-box; width: 564px; height: 64px; left: 377px;
 background: #FFFFFF;
 border: 1px solid #B3B3B3;
 border-radius: 4px; ;"/>
- <button style="margin-left: 37px; width: 142px; height: 64px; left: 921px; margin-top: 25px; background: #BFBFBF;
+ <button style="margin-left: 37px; width: 142px; height: 64px; left: 921px; background: #BFBFBF;margin-top: 1px;
 border: 1px solid #B3B3B3;
-border-radius: 4px; position: relative;"> <img :src="searchButton" style="width: 24px; height: 24px; width: 24px; height: 24px; left: 948px; top: 745px;" /> cari  </button>
+border-radius: 4px; position: relative;"> <img :src="searchButton" style="margin-left:7px; width: 24px; height: 24px; width: 24px; height: 24px; left: 948px; top: 745px;" /> cari  </button>
 <p>
   </p>
   <a style="margin-left: 160px;width: 347px;
@@ -94,12 +94,12 @@ left: 148px;
 top: 1100x;
 font-family: Inter, sans-serif;
 font-style: medium;
-font-weight: 500;
-font-size: 32px;
+font-weight: 200;
+font-size: 26px;
 line-height: 150%;
 /* or 48px */
 
-color: #000000;">Senior Java and/or .NET Programmer (Developer)</bodycard>
+color: #000000;"><router-link to="/detailcareer1">Senior Java and/or .NET Programmer (Developer)</router-link></bodycard>
     </div>
   </div>
 </div>
@@ -124,7 +124,7 @@ top: 1100x;
 font-family: Inter, sans-serif;
 font-style: medium;
 font-weight: 500;
-font-size: 32px;
+font-size:26px;
 line-height: 150%;
 /* or 48px */
 
@@ -151,7 +151,7 @@ top: 1100x;
 font-family: Inter, sans-serif;
 font-style: medium;
 font-weight: 500;
-font-size: 32px;
+font-size: 26px;
 line-height: 150%;
 /* or 48px */
 
@@ -168,7 +168,7 @@ height: 38px;
 left: 122px;
 top: 1390px;
 
-font-family: Inter, sans-serif;
+font-family: inter;
 font-style: normal;
 font-weight: 400;
 font-size: 20px;
