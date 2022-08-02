@@ -1,6 +1,6 @@
 <template>
   <!-- Footer -->
-  <MDBFooter bg="dark" :text="['white']">
+  <MDBFooter bg="dark" :text="['white']" style="width: 1440px;">
     <!-- Grid container -->
     <MDBContainer class="p-4">
       <section class="">
@@ -58,7 +58,7 @@
           <MDBCol lg="3" md="6" class="mb-4 mb-md-0">
             <h5 class="text-uppercase">CONTACT</h5>
             <ul class="list-unstyled mb-0">
-              <li>alamat</li>
+              <li>Jalan Kartini no: 40, Tanjung Karang Pusat 35116 Bandar Lampung, Lampung, Indonesiab       </li>
               <li>info@winosa.id</li>
               <li>085839261747</li>
             </ul>
