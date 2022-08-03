@@ -82,8 +82,8 @@ color: #000000;
 ">Tujuan Pekerjaan</a>
 <br>
 <a style="font-family: Inter, sans-serif;
-margin-top: 26px;
-margin-left: 10px;
+margin-top: 100px;top: 800px;
+margin-left: 12px;
 font-style: normal;
 font-weight: 400;
 font-size: 20px;
@@ -95,17 +95,45 @@ color: #000000;">
  <br>
  <a style="font-family: Inter, sans-serif;
 margin-top: 26px;
-margin-left: 10px;
+margin-left: 12px;
 font-style: normal;font-weight: 400;
 font-size: 20px;
 line-height: 150%;
 /* or 30px */
 
-color: #000000;">Kami sedang memperluas dan mencari pengembang Java dan/atau .NET yang ambisius.</a>
- <a>Anda akan bekerja sebagian dari jarak jauh dan dari kantor kami untuk pelanggan internasional.</a>
+color: #000000;">Kami sedang memperluas dan mencari pengembang Java dan/atau .NET yang ambisius. Anda akan bekerja sebagian dari</a>
+ <br>
+ <a style="font-family: Inter, sans-serif;
+margin-top: 26px;
+margin-left: 12px;
+font-style: normal;font-weight: 400;
+font-size: 20px;
+line-height: 150%;
+/* or 30px */
+
+color: #000000;">jarak jauh dan dari kantor kami untuk pelanggan internasional.</a>
+<br><br>
+<a style="font-family: Inter, sans-serif;
+margin-top: 26px;
+margin-left: 12px;
+font-style: normal;font-weight: 400;
+font-size: 20px;
+line-height: 150%;
+/* or 30px */
+
+color: #000000;">Apakah Anda ingin menjadi bagian dari perusahaan paling ambisius di Indonesia kemudian bergabung dengan tim kami dan
 <br>
-Apakah Anda ingin menjadi bagian dari perusahaan paling ambisius di Indonesia kemudian bergabung dengan tim kami dan mempercepat karir Anda. Harap tunjukkan dalam aplikasi Anda bagaimana Anda memenuhi persyaratan di bawah ini dan ekspektasi gaji Anda.
+<a style="font-family: Inter, sans-serif;
+margin-top: 26px;
+margin-left: 12px;
+font-style: normal;font-weight: 400;
+font-size: 20px;
+line-height: 150%;
+/* or 30px */
+
+color: #000000; ">mempercepat karir Anda. Harap tunjukkan dalam aplikasi Anda bagaimana Anda memenuhi persyaratan di bawah ini dan ekspektasi gaji Anda.
 </a>
+</a> </a>
 <hr/>
 <h3>Sejarah Perusahaan</h3>
 <p>
