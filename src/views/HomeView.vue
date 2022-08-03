@@ -1,8 +1,8 @@
 <template>
   <div class="">
     <div
-      id="bannerAbout"
-      class="AboutBanner"
+      id="bannerHome"
+      class="HomeBanner"
       data-ride="banner"
     >
       <div class="banner-inner" style="display: flex; flex-direction: column;">
