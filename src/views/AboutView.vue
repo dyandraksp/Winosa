@@ -107,7 +107,8 @@ export default {
       ]
     }
   },
-  methods: {}
+  methods: {
+  }
 }
 </script>
 <style>
@@ -164,6 +165,7 @@ h4{
   padding: 0px;
   top: 200px;
   bottom: 78.97%;
+  margin-top: 120px;
 }
 .circle{
   position: absolute;
@@ -176,6 +178,6 @@ h4{
   background: #CEA206;
 }
 .header-banner{
-  top: 300px;
+  margin-top: 120px;
 }
 </style>
