@@ -1,12 +1,18 @@
 <template>
+<div class="grid-container">
 <ul>
-    <li style="margin-left: 152px; margin-right: 570px;"><router-link :class="{active:rl_1}" :to="{ name: 'Home' }"> <img src="../assets/winosa.png"/></router-link></li>
-    <li style="padding-top: 12px;"><router-link :class="{active:rl_2}" :to="{ name: 'About' }">ABOUT</router-link></li>
-    <li style="padding-top: 12px;"><router-link :class="{active:rl_3}" :to="{ name: 'Portfolio' }">PORTFOLIO</router-link></li>
-    <li style="padding-top: 12px;"><router-link :class="{active:rl_4}" :to="{ name: 'Partner' }">PARTNERS</router-link></li>
-    <li style="padding-top: 12px;"><router-link :class="{active:rl_5}" :to="{ name: 'Career' }">CAREER</router-link></li>
-    <li style="margin-right: 152px; padding-top: 12px;"><router-link :class="{active:rl_6}" :to="{ name: 'Contact' }">CONTACT</router-link></li>
+  <div class="navbar1">
+    <li><router-link :class="{active:rl_1}" :to="{ name: 'Home' }"> <img src="../assets/winosa.png"/></router-link></li>
+  </div>
+  <div class="navbar2">
+    <li><router-link :class="{active:rl_2}" :to="{ name: 'About' }">ABOUT</router-link></li>
+    <li><router-link :class="{active:rl_3}" :to="{ name: 'Portfolio' }">PORTFOLIO</router-link></li>
+    <li><router-link :class="{active:rl_4}" :to="{ name: 'Partner' }">PARTNERS</router-link></li>
+    <li><router-link :class="{active:rl_5}" :to="{ name: 'Career' }">CAREER</router-link></li>
+    <li><router-link :class="{active:rl_6}" :to="{ name: 'Contact' }">CONTACT</router-link></li>
+  </div>
 </ul>
+</div>
 </template>
 <script>
 import { ref } from 'vue'
@@ -111,8 +117,28 @@ li a:hover:not(.active) {
     background-color: #111;
 }
 
+.grid-container {
+  grid-template-columns: auto auto;
+  grid-gap: 0px;
+  padding: 0px;
+  width: 100%;
+}
+
 img{
   width: 48px;
   height: 48px;
 }
+
+.navbar1{
+  margin-left: 156px;
+}
+
+.navbar2{
+  display: flex;
+  align-items: right;
+  justify-content: right;
+  margin-right: 156px;
+  padding-top: 12px;
+}
+
 </style>

@@ -9,11 +9,13 @@
           <!--Grid column-->
           <MDBCol lg="3" md="6" class="mb-4 mb-md-0">
             <h5 class="text-uppercase">WINOSA</h5>
-            <p style="text-align: left;">Menjadi salah satu perusahaan penyedia jasa
-              konsultan dan pengembangan bisnis di bidang IT
-              yang terpercaya untuk memberikan solusi yang
-              inovatif dan mampu bersaing dalam skala
-              nasional dan internasional</p>
+            <p style="text-align: left;">Menjadi salah satu perusahaan <br/>
+            penyedia jasa konsultan dan <br/>
+            pengembangan bisnis di bidang IT <br/>
+            yang terpercaya untuk <br/>
+            memberikan solusi yang inovatif <br/>
+            dan mampu bersaing dalam skala <br/>
+            nasional dan internasional</p>
           </MDBCol>
           <!--Grid column-->
           <!--Grid column-->
@@ -58,9 +60,18 @@
           <MDBCol lg="3" md="6" class="mb-4 mb-md-0">
             <h5 class="text-uppercase">CONTACT</h5>
             <ul class="list-unstyled mb-0">
-              <li>Jalan Kartini no: 40, Tanjung Karang Pusat 35116 Bandar Lampung, Lampung, Indonesiab       </li>
+              <div class="contact">
+              <img src="../assets/icon_location.png" style="width: 19px; height: 25px; margin-right: 24px; margin-top: 6px;" />
+              <li>Kartini No.40, Tanjung Karang Pusat 35116 Bandar Lampung, Lampung, Indonesia</li>
+              </div>
+              <div class="contact">
+              <img src="../assets/icon_email.png" style="width: 21px; height: 16px; margin-right: 22px; margin-top: 6px;" />
               <li>info@winosa.id</li>
+              </div>
+              <div class="contact">
+              <img src="../assets/icon_wa.png" style="width: 21px; height: 21px; margin-right: 22px; margin-top: 2px;" />
               <li>085839261747</li>
+              </div>
             </ul>
           </MDBCol>
           <!--Grid column-->
@@ -70,17 +81,6 @@
       <!-- Section: Links -->
     </MDBContainer>
     <!-- Grid container -->
-    <!-- Copyright -->
-    <div
-      class="text-center p-3"
-      style="background-color: rgba(0, 0, 0, 0.2)"
-    >
-      © 2020 Copyright:
-      <a class="text-white" href="https://mdbootstrap.com/"
-        >MDBootstrap.com</a
-      >
-    </div>
-    <!-- Copyright -->
   </MDBFooter>
   <!-- Footer -->
 </template>
@@ -102,5 +102,12 @@ li{
 h5{
   color: #FDC03A;
   text-align: left;
+}
+.contact{
+  display: flex;
+  padding-bottom: 24px;
+}
+.text-uppercase{
+  padding-bottom: 24px;
 }
 </style>

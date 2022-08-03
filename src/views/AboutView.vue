@@ -22,7 +22,8 @@
               berorientasi pada target. Kami menantikan untuk <br/>
               bekerjasama dan mendukung bisnis anda.</p>
           <div class="btn">
-            <button style="background-color: #1F1F1F; height: 43px; width: 114px; font-size: 18px; padding: 8px 16px;"><router-link to="/tim">Tim Kami</router-link></button>
+            <button style="background-color: #1F1F1F; height: 43px; width: 114px; font-size: 18px; padding: 8px 16px;">
+            <router-link to="/tim" class="text-white">Tim Kami</router-link></button>
           </div>
           </div>
           </div>

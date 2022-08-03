@@ -25,16 +25,16 @@
 </p>
 <div class="grid-container">
   <div class="item1">
-    <img :src="img1">
+    <img src="../assets/xdemia.png" style="width:198px; height: 90px; object-fit: fill;">
   </div>
   <div class="item2">
-    <img :src="img2">
+    <img src="../assets/tx.png" style="width:198px; height: 48px; object-fit: cover;">
   </div>
   <div class="item3">
-    <img :src="img3">
+    <img src="../assets/cw.png" style="width:198px; height: 44px; object-fit: cover;">
   </div>
   <div class="item4">
-    <img :src="img4">
+    <img src="../assets/novimix.png" style="width:198px; height: 48px; object-fit: cover;">
   </div>
 </div>
 <hr/>
@@ -168,12 +168,6 @@ export default {
   text-align: center;
   padding: 20px 0;
   font-size: 30px;
-}
-
-img{
-  width:197px;
-  height: 48px;
-  object-fit: cover;
 }
 
 button{
