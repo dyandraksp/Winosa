@@ -29,157 +29,94 @@
 
 <div class="sidenav" >
   <h1 style="position: absolute;
-width: 534px;
-height: 84px;
-left: 158px;
-top: 280px;
-
-font-family: Inter, sans-serif ;
+width: 400px; width: 800px;
+height: 113.96px;
+left: 10px;
+margin-top: 170px;
+margin-left: 156px;
+font-family: inter, sans-serif;
 font-style: normal;
 font-weight: 700;
-font-size: 56px;
-line-height: 66px;
-letter-spacing: 3px;
+font-size: 48px;
+line-height: 58px;
 
-color: #000000;">Hubungi Kami</h1>
- <a style="position: absolute;
-width: 400px;
-height: 84px;
-left: 140px;
-top: 380px;
-
-font-family: 'Inter';
-font-style: normal;
-font-weight: 500;
-font-size: 18px;
-line-height: 150%;
-
-/* or 27px */
-
-color: #000000;">Kami menyukai pertanyaan dan saran dari anda,
-dan kami selalu senang membantu!<br/>
-Berikut cara untuk menghubungi kami</a>
-
+color: #000000;">Senior Java and/or .Net
+(Developer)</h1>
 </div>
 <div class="content">
-<img :src="vector_career" style="width: 400px; height: 400px; margin-left: 400px;  left: 100px; top: 82px; object-fit: cover;">
+<img :src="vector_career" style="width: 310px; height: 310px; margin-left: 350px;  left: 852px; margin-top: 70px; object-fit: cover;">
 </div>
-<h3 style= " text-align: left; margin-left: 160px; top: 723px;">
-Kirimkan Kami Sebuah Pesan
-</h3>
-<a style="width: 807px;
-height: 42px;
-left: 155px;
-top: 780px;
-
-font-family: Inter, sans-serif ;
-font-style: normal;
-font-weight: 400;
-font-size: 20px;
-line-height: 150%;
-/* or 30px */
-
-text-align: left;
-
-color: #5D5D5D; text-align: left; margin-left: 160px;"> Kirimkan saja permintaan anda dan kami akan menemukan  solusi terbaik untuk anda </a>
-<p></p>
-<form action="/action_page.php">
-  <label for="fname" style="text-align: left; margin-left: 160px;
-
-font-family: Inter, sans-serif;
-font-style: normal;
-font-weight: 400;
-font-size: 20px;
-line-height: 150%;
-/* or 30px */
-
-color: #5D5D5D;
-">Nama</label><br>
-
-  <input type="text" id="fname" name="fname" value="Nama Lengkap" style=" opacity:50% ;text-align: left; margin-left: 160px;left: 110px; width: 500px; height: 48px;
-right: 24px;top: 780px; bottom: 46.99%; background: #FFFFFF; border: 1px solid rgba(0, 0, 0, 0.5);
-border-radius: 4px;">
-
-  <label for="lname" style="text-align: left; margin-left: 140px; left: 200px;
-right: 33.96%;
-top: 780px;
-bottom: 50.91%;
-
-font-family: Inter, sans-serif;
-font-style: normal;
-font-weight: 400;
-font-size: 20px;
-line-height: 150%;
-/* or 30px */
-
-color: #5D5D5D;
-"> Email</label>
- <input type="text" id="fname" name="fname" value="Email@example.com" style=" text-align: left; margin-left: 800px;left: 200px; width: 500px; height: 48px;
-right: 24px;
-top: 780px;
-bottom: 50.91%;
-opacity: 50%;
-background: #FFFFFF;
-border: 1px solid rgba(0, 0, 0, 0.5);
-border-radius: 4px;">
-
 <br>
-<a></a>
- <label for="fname" style="text-align: left; margin-left: 160px;
-left: 11.04%;
-right: 75.49%;
-top: 888px;
-bottom: 44.14%;
-
-font-family: Inter, sans-serif;
-font-style: normal;
-font-weight: 400;
-font-size: 20px;
-line-height: 150%;
-/* or 30px */
-
-color: #5D5D5D;
-">Subject</label><br>
-
-  <input type="text" id="fname" name="fname" value="Subject" style=" text-align: left; margin-left: 160px;left: 110px; width: 1138px; height: 48px;
-right: 24px;
-top: 780px;
-bottom: 46.99%;
-opacity: 50%;
-background: #FFFFFF;
-border: 1px solid rgba(0, 0, 0, 0.5);
-border-radius: 4px;">
 <p></p>
- <label for="fname" style="text-align: left; margin-left: 160px;
-left: 11.04%;
-right: 75.49%;
-top: 1500px;
-bottom: 44.14%;
-font-family: Inter, sans-serif;
+<div class="career">
+<a style="margin-top: 3px; margin-left:10px; font-family: inter, sans-serif; top: 543px;
+font-style: medium;
+font-weight: 500;
+font-size: 32px;
+line-height: 150%;
+/* or 48px */
+
+color: #000000;">Lokasi</a>
+<br>
+<a style="font-family: Inter, sans-serif;
+margin-top: 32px;
+margin-left: 10px;
 font-style: normal;
 font-weight: 400;
 font-size: 20px;
 line-height: 150%;
 /* or 30px */
 
-color: #5D5D5D;
-">Pesan</label><br>
-  <input type="text" id="fname" name="fname"  style="font-family: Inter, sans-serif;
+color: #000000;">
+  Banten, Lampung, Jakarta Raya, Bandung, Palembang, Yogyakarta, Bali, Jawa Tengah, Jawa Timur
+</a>
+<hr/>
+<a style="margin-top: 3px; margin-left:10px; font-family: inter, sans-serif; top: 543px;
+font-style: medium;
+font-weight: 500;
+font-size: 26px;
+line-height: 150%;
+/* or 48px */
+
+color: #000000;
+">Tujuan Pekerjaan</a>
+<br>
+<a style="font-family: Inter, sans-serif;
+margin-top: 26px;
+margin-left: 10px;
 font-style: normal;
-font-weight: 400; text-align: left; margin-left: 160px; width: 1138px; height: 167px;
-left: 11.11%;
-right: 10.56%;
-top: 1036px;
-bottom: 27.7%;
-opacity: 50%;
-background: #FFFFFF;
-border: 1px solid rgba(0, 0, 0, 0.5);
-border-radius: 4px;line-height: 150%;">
+font-weight: 400;
+font-size: 20px;
+line-height: 150%;
+/* or 30px */
 
-<p style="padding-bottom: 64px;
-  font-size: 20px;
-  text-align: left;"></p>
+color: #000000;">
+ Winosa Mitra adalah perusahaan konsultan bisnis dan pengembangan perangkat lunak yang muda dan berkembang pesat.
+ <br>
+ <a style="font-family: Inter, sans-serif;
+margin-top: 26px;
+margin-left: 10px;
+font-style: normal;font-weight: 400;
+font-size: 20px;
+line-height: 150%;
+/* or 30px */
 
+color: #000000;">Kami sedang memperluas dan mencari pengembang Java dan/atau .NET yang ambisius.</a>
+ <a>Anda akan bekerja sebagian dari jarak jauh dan dari kantor kami untuk pelanggan internasional.</a>
+<br>
+Apakah Anda ingin menjadi bagian dari perusahaan paling ambisius di Indonesia kemudian bergabung dengan tim kami dan mempercepat karir Anda. Harap tunjukkan dalam aplikasi Anda bagaimana Anda memenuhi persyaratan di bawah ini dan ekspektasi gaji Anda.
+</a>
+<hr/>
+<h3>Sejarah Perusahaan</h3>
+<p>
+  PT Winosa Bharatadjaya didirikan pada tahun 2020 sebagai konsultan bisnis
+  dan pengembangan perangkat lunak yang berada di Bandar Lampung.
+  Kami telah membangun koneksi internasional di Belanda, Australia dan
+  Selandia Baru dan saat ini kami sedang memperluas ke wilayah lain.
+  PT Winosa Mitra Bharatadjaya memiliki sumber daya manusia di bidang IT,
+  bisnis dan legal, yaitu tim penguji, tim pengembang software, tim design
+  beserta tim pendukung pengembangan bisnis untuk pemenuhan permintaan bisnis.
+</p>
   <input type="submit" value="Kirim" style="display: flex; text-align: right
 flex-direction: row;
 align-items: flex-start;
@@ -192,7 +129,7 @@ margin-left: 1173px;
 background: #CEA206;
 border-radius: 4px;">
 <p></p>
-</form>
+</div>
 </body>
 </html>
 
@@ -211,6 +148,11 @@ export default {
 }
 </script>
 <style>
+.career{
+  margin-left: 160px;
+  margin-right: 156px;
+  text-align: left;
+}
 * {
   box-sizing: border-box;
 }
