@@ -1,18 +1,29 @@
 <template>
-<div class="">
+  <div class="">
     <div
-      id="bannerHome"
-      class="HomeBanner"
+      id="bannerAbout"
+      class="AboutBanner"
       data-ride="banner"
     >
-      <div class="banner-inner">
+      <div class="banner-inner" style="display: flex; flex-direction: column;">
         <div
           class="banner-item"
           v-for="(banner, idx) in banners"
           :class="{ active: idx == 0 }"
           :key="idx"
+          style="display:flex;"
         >
-          <img :src="banner" alt="" class="img-fluid" style="height: 570px; width: 100%; object-fit: cover;" />
+          <img :src="banner" alt="" class="img-fluid" style="height: 570px; width: 100%; object-fit: cover;"/>
+          <div class="box">
+            <div class="header-banner">
+            <h2 style="color: #524E4E; margin-top: 100px; letter-spacing: 0px;">REKAN BISNIS ANDA <br/>DI INDONESIA</h2>
+            <h4 style="margin-left: 156px; color: #524E4E;">Apakah Anda Berminat Bisnis Dengan Kami?</h4>
+          <div class="btn" style="margin-top: 62px;">
+            <button style="background-color: #1F1F1F; height: 52px; width: 195px; font-size: 24px; padding: 8px 20px;">
+            <router-link to="/contact" class="text-white">Hubungi Kami</router-link></button>
+          </div>
+          </div>
+          </div>
         </div>
       </div>
     </div>
@@ -162,5 +173,16 @@ button{
   border: 0;
   border-radius: 4px;
   margin-top: 34px;
+}
+
+.box{
+  position: absolute;
+  width: 710px;
+  height: 506px;
+  left: 0px;
+  top: 64px;
+
+  background: #D6BB5B;
+  opacity: 79%;
 }
 </style>
