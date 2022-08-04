@@ -44,12 +44,12 @@ color: #000000;">Senior Java and/or .Net
 (Developer)</h1>
 </div>
 <div class="content">
-<img :src="vector_career" style="width: 310px; height: 310px; margin-left: 350px;  left: 852px; margin-top: 70px; object-fit: cover;">
+<img :src="vector_career" style="width: 310px; height: 310px; margin-left: 390px;  left: 852px; margin-top: 70px; object-fit: cover;">
 </div>
 <br>
 <p></p>
 <div class="career">
-<a style="margin-top: 3px; margin-left:10px; font-family: inter, sans-serif; top: 543px;
+<a style="margin-top: 3px; font-family: inter, sans-serif; top: 543px;
 font-style: medium;
 font-weight: 500;
 font-size: 32px;
@@ -57,10 +57,9 @@ line-height: 150%;
 /* or 48px */
 
 color: #000000;">Lokasi</a>
-<br>
+<br><br>
 <a style="font-family: Inter, sans-serif;
 margin-top: 32px;
-margin-left: 10px;
 font-style: normal;
 font-weight: 400;
 font-size: 20px;
@@ -71,7 +70,7 @@ color: #000000;">
   Banten, Lampung, Jakarta Raya, Bandung, Palembang, Yogyakarta, Bali, Jawa Tengah, Jawa Timur
 </a>
 <hr/>
-<a style="margin-top: 3px; margin-left:10px; font-family: inter, sans-serif; top: 543px;
+<a style="margin-top: 3px; font-family: inter, sans-serif; top: 543px;
 font-style: medium;
 font-weight: 500;
 font-size: 26px;
@@ -81,81 +80,100 @@ line-height: 150%;
 color: #000000;
 ">Tujuan Pekerjaan</a>
 <br>
-<a style="font-family: Inter, sans-serif;
-margin-top: 100px;top: 800px;
-margin-left: 12px;
+<br>
+<a style="font-family: inter, sans-serif;
+margin-top: 100px;top: 800px;height: 227px;
+width: 1182px;
+left: 126px;
+top: 735px;
+
+margin-right: 133px;
 font-style: normal;
-font-weight: 400;
+font-weight: 100;
 font-size: 20px;
+width: 1080px; height: 310px;
 line-height: 150%;
-/* or 30px */
 
 color: #000000;">
  Winosa Mitra adalah perusahaan konsultan bisnis dan pengembangan perangkat lunak yang muda dan berkembang pesat.
- <br>
- <a style="font-family: Inter, sans-serif;
-margin-top: 26px;
-margin-left: 12px;
-font-style: normal;font-weight: 400;
-font-size: 20px;
-line-height: 150%;
-/* or 30px */
-
-color: #000000;">Kami sedang memperluas dan mencari pengembang Java dan/atau .NET yang ambisius. Anda akan bekerja sebagian dari</a>
- <br>
- <a style="font-family: Inter, sans-serif;
-margin-top: 26px;
-margin-left: 12px;
-font-style: normal;font-weight: 400;
-font-size: 20px;
-line-height: 150%;
-/* or 30px */
-
-color: #000000;">jarak jauh dan dari kantor kami untuk pelanggan internasional.</a>
-<br><br>
-<a style="font-family: Inter, sans-serif;
-margin-top: 26px;
-margin-left: 12px;
-font-style: normal;font-weight: 400;
-font-size: 20px;
-line-height: 150%;
-/* or 30px */
-
-color: #000000;">Apakah Anda ingin menjadi bagian dari perusahaan paling ambisius di Indonesia kemudian bergabung dengan tim kami dan
-<br>
-<a style="font-family: Inter, sans-serif;
-margin-top: 26px;
-margin-left: 12px;
-font-style: normal;font-weight: 400;
-font-size: 20px;
-line-height: 150%;
-/* or 30px */
-
-color: #000000; ">mempercepat karir Anda. Harap tunjukkan dalam aplikasi Anda bagaimana Anda memenuhi persyaratan di bawah ini dan ekspektasi gaji Anda.
+ Kami sedang memperluas dan mencari pengembang Java dan/atau .NET yang ambisius. Anda akan bekerja sebagian dari
+ jarak jauh dan dari kantor kami untuk pelanggan internasional.
+ <br><br>
+ Apakah Anda ingin menjadi bagian dari perusahaan paling ambisius di Indonesia kemudian bergabung dengan tim kami dan
+ mempercepat karir Anda. Harap tunjukkan dalam aplikasi Anda bagaimana Anda memenuhi persyaratan di bawah ini dan ekspektasi gaji Anda.
 </a>
-</a> </a>
 <hr/>
-<h3>Sejarah Perusahaan</h3>
-<p>
-  PT Winosa Bharatadjaya didirikan pada tahun 2020 sebagai konsultan bisnis
-  dan pengembangan perangkat lunak yang berada di Bandar Lampung.
-  Kami telah membangun koneksi internasional di Belanda, Australia dan
-  Selandia Baru dan saat ini kami sedang memperluas ke wilayah lain.
-  PT Winosa Mitra Bharatadjaya memiliki sumber daya manusia di bidang IT,
-  bisnis dan legal, yaitu tim penguji, tim pengembang software, tim design
-  beserta tim pendukung pengembangan bisnis untuk pemenuhan permintaan bisnis.
-</p>
-  <input type="submit" value="Kirim" style="display: flex; text-align: right
-flex-direction: row;
-align-items: flex-start;
-padding: 8px 32px;
-width: 122px;
-height: 52px;
-left: calc(50% - 122px/2 + 507px);
-top: calc(50% - 52px/2 + 466px);
-margin-left: 1173px;
-background: #CEA206;
-border-radius: 4px;">
+<a style="margin-top: 3px; font-family: inter, sans-serif; top: 543px;
+font-style: medium;
+font-weight: 500;
+font-size: 32px;
+line-height: 150%;
+/* or 48px */
+
+color: #000000;">Persyaratan</a>
+<ul style="font-family: inter, sans-serif;
+margin-top: 20px;top: 800px;height: 227px;
+width: 1182px;
+left: 126px;
+top: 735px;
+
+margin-right: 133px;
+font-style: normal;
+font-weight: 100;
+font-size: 20px;
+width: 1080px; height: 310px;
+line-height: 150%;">
+  <li>Memiliki pemikiran logis yang baik untuk pemecahan masalah.</li>
+  <li>Memiliki minimal 3 tahun, tetapi lebih disukai 5 tahun, pengalaman sebagai pengembang web menggunakan Java atau
+    .NET (C#, ASP).</li>
+  <li>Memiliki pemahaman yang baik tentang HTML dan CSS.</li>
+  <li>Memiliki pemahaman yang baik tentang database dan keterampilan SQL yang baik.</li>
+  <li>Memiliki pengalaman dalam menggunakan GIT</li>
+ <li>Fasih berbahasa Inggris - keterampilan komunikasi tertulis dan lisan (setidaknya 7/10).</li>
+ <li>Kemampuan untuk mengawasi semua komponen perangkat lunak.</li>
+ <li>Memahami dampak perubahan baru dan meminimalkan atau mencegah regres</li>
+<li>Dapat memimpin tim pengembangan tetapi juga praktis.</li>
+<li>Mengawasi pengembang junior</li>
+<li>Memiliki keterampilan pemecahan masalah yang sangat baik.</li>
+</ul>
+<br>
+<hr/>
+<a style="margin-top: 3px; font-family: inter, sans-serif; top: 543px;
+font-style: medium;
+font-weight: 500;
+font-size: 32px;
+line-height: 150%;
+/* or 48px */
+
+color: #000000;">Tanggung Jawab</a>
+<ul style="font-family: inter, sans-serif;
+margin-top: 20px;top: 800px;height: 227px;
+width: 1182px;
+left: 126px;
+top: 735px;
+
+margin-right: 133px;
+font-style: normal;
+font-weight: 100;
+font-size: 20px;
+width: 1080px; height: 310px;
+line-height: 150%;">
+  <li>Mendukung seluruh siklus hidup aplikasi.</li>
+  <li>Berkontribusi untuk merancang, menguji, merilis, dan mendukung aplikasi.</li>
+  <li>Tulis kode yang bersih dan berkelanjutan yang dapat digunakan di masa depan.</li>
+  <li>Kumpulkan persyaratan khusus dan sarankan solusi.</li>
+  <li>Tulis pengujian unit dan UI untuk mengidentifikasi malfungsi.</li>
+ <li>Memecahkan masalah dan men-debug untuk mengoptimalkan kinerja.</li>
+ <li>Pastikan aplikasi baru dan lama memenuhi standar kualitas.</li>
+</ul>
+<div class="button">
+            <button style="background-color: #CEA206; width: 159px;
+height: 48px; font-size: 18px; padding: 8px 16px 16px 16px ; margin-left: 1000px; display: flex; text-align: right
+flex-direction: row;left: calc(50% - 122px/2 + 507px);
+top: 1000px; bottom:300px;align-items: flex-start; ">
+            <router-link to="/formcareer" class="text-white">Kirim Lamaran</router-link></button>
+          </div>
+<p></p>
 <p></p>
 </div>
 </body>

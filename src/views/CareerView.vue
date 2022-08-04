@@ -52,7 +52,7 @@ height: 60px;
 left: 121px;
 top: 912px;
 
-font-family: 'Inter';
+font-family: inter, sans-serif;
 font-style: normal;
 font-weight: 400;
 font-size: 20px;
@@ -67,7 +67,7 @@ height: 60px;
 left: 121px;
 top: 912px;
 
-font-family: 'Inter';
+font-family: inter, sans-serif;
 font-style: normal;
 font-weight: 400;
 font-size: 20px;
@@ -168,7 +168,7 @@ height: 38px;
 left: 122px;
 top: 1390px;
 
-font-family: inter;
+font-family:  inter, sans-serif;
 font-style: normal;
 font-weight: 400;
 font-size: 20px;
