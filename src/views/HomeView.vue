@@ -15,7 +15,7 @@
         >
           <img :src="banner" alt="" class="img-fluid" style="height: 570px; width: 100%; object-fit: cover;"/>
           <div class="square">
-            <div class="header-banner">
+            <div class="header-banner-home">
             <h2 style="color: #524E4E; margin-top: 100px; letter-spacing: 0px;">REKAN BISNIS ANDA <br/>DI INDONESIA</h2>
             <h4 style="margin-left: 156px; color: #524E4E;">Apakah Anda Berminat Bisnis Dengan Kami?</h4>
           <div class="btn" style="margin-top: 62px;">
@@ -106,7 +106,7 @@ color: #5D5D5D;">
 </div>
 <div class="grid-container" style="grid-gap: 0px;">
 <div class="item1">
-  <img :src="vector" style="width: 431px; height: 431px;"/>
+  <img src="../assets/contact_home.jpg" style="width: 431px; height: 431px;"/>
 </div>
 <div class="item2">
   <h4 style="
@@ -184,5 +184,9 @@ button{
 
   background: #D6BB5B;
   opacity: 79%;
+}
+
+.header-banner-home{
+  margin-top: 120px;
 }
 </style>
