@@ -22,6 +22,7 @@
               berorientasi pada target. Kami menantikan untuk <br/>
               bekerjasama dan mendukung bisnis anda.</p>
           </div>
+          <div class="half-circle"></div>
           </div>
         </div>
       </div>
@@ -142,6 +143,14 @@
 </div>
 <div class="join_us">
   <img src="../assets/join_us.jpg" style="width: 100%; height: 366px; object-fit: cover; opacity: 75%; margin: 0;" />
+  <div class="jjg">
+    <div class="content-tim">
+    <h2>Beragabung Bersama Kami</h2>
+    <br>
+    <p style="color: white; font-weight: 400;">Berminat bergabung bersama kami?</p>
+    <button class="cta-tim"><router-link to="/contact" class="text-white">Hubungi Kami</router-link></button>
+    </div>
+  </div>
 </div>
 </template>
 <script>
@@ -220,5 +229,30 @@ p{
 .join_us{
   display: flex;
   height: 366px;
+}
+
+.jjg{
+  left: 102px;
+  top: 3642px;
+  display: flex;
+  position: absolute;
+  margin: 50px;
+  background: #CEA206;
+  opacity: 0.8;
+  width: 699px;
+  height: 365px;
+  transform: skew(-40deg); /* default syntax */
+}
+.content-tim{
+  transform: skew(0deg); /* default syntax */
+}
+.cta-tim{
+  background-color: #1F1F1F;
+  opacity: 80%;
+  height: 46px;
+  width: 173px;
+  font-size: 20px;
+  padding: 8px 16px;
+  margin-left:  110px;
 }
 </style>

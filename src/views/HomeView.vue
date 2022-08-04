@@ -14,7 +14,7 @@
           style="display:flex;"
         >
           <img :src="banner" alt="" class="img-fluid" style="height: 570px; width: 100%; object-fit: cover;"/>
-          <div class="box">
+          <div class="square">
             <div class="header-banner">
             <h2 style="color: #524E4E; margin-top: 100px; letter-spacing: 0px;">REKAN BISNIS ANDA <br/>DI INDONESIA</h2>
             <h4 style="margin-left: 156px; color: #524E4E;">Apakah Anda Berminat Bisnis Dengan Kami?</h4>
@@ -175,7 +175,7 @@ button{
   margin-top: 34px;
 }
 
-.box{
+.square{
   position: absolute;
   width: 710px;
   height: 506px;

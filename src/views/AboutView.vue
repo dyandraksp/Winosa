@@ -22,9 +22,9 @@
               berorientasi pada target. Kami menantikan untuk <br/>
               bekerjasama dan mendukung bisnis anda.</p>
           <div class="btn">
-            <button style="background-color: #1F1F1F; height: 43px; width: 114px; font-size: 18px; padding: 8px 16px;">
-            <router-link to="/tim" class="text-white">Tim Kami</router-link></button>
+            <button class="cta-about"><router-link to="/tim" class="text-white">Tim Kami</router-link></button>
           </div>
+          <div class="half-circle"></div>
           </div>
           </div>
         </div>
@@ -61,12 +61,13 @@
 <hr/>
 <h3>Management</h3>
 <div class="grid-container" style="display: flex; align-items: center; justify-content: center; ">
+<div class="button" @click="shiftLeft()"><img src="https://image.ibb.co/mRsEb7/left_arrow.png" alt=""></div>
 <div class="item1">
 <div class="card">
   <img :src="img_samira" style="width:281px; height: 259px; object-fit: cover;">
   <div class="container">
     <h4 style="text-align: center;"><b>Samira Kamal<br/>(Director)</b></h4>
-    <p style="font-size: 16px; padding-left: ; padding-right: ; text-align: center;">Business development, Food and Beverage
+    <p style="font-size: 16px; text-align: center;">Business development, Food and Beverage
      <br/>Languages: Indonesian, English and Dutch</p>
   </div>
 </div>
@@ -76,7 +77,7 @@
   <img :src="img_samira" style="width:281px; height: 259px; object-fit: cover;">
   <div class="container">
     <h4 style="text-align: center;"><b>Ina Sundari <br/>(Director)</b></h4>
-    <p style="font-size: 16px; padding-left: ; padding-right: ; text-align: center;">Business development, Real estate
+    <p style="font-size: 16px; text-align: center;">Business development, Real estate
     <br/>Languages: Indonesian and English</p>
   </div>
 </div>
@@ -86,11 +87,12 @@
   <img :src="img_samira" style="width:281px; height: 259px; object-fit: cover;">
   <div class="container">
     <h4 style="text-align: center;"><b>Billy Bharatadjaya <br/> (General Manager) </b></h4>
-    <p style="font-size: 16px; padding-left: ; padding-right: ; text-align: center;">Business development, Strategic alliances
+    <p style="font-size: 16px; text-align: center;">Business development, Strategic alliances
     <br/> Indonesian, Dutch and English</p>
   </div>
 </div>
 </div>
+<div class="button" @click="shiftRight()"><img src="https://image.ibb.co/dfPSw7/right_arrow.png" alt=""></div>
 </div>
 </div>
 </template>
@@ -108,6 +110,43 @@ export default {
     }
   },
   methods: {
+    shiftLeft () {
+      const boxes = document.querySelectorAll('.box')
+      const tmpNode = boxes[0]
+      boxes[0].className = 'box move-out-from-left'
+      setTimeout(function () {
+        if (boxes.length > 5) {
+          tmpNode.classList.add('box--hide')
+          boxes[5].className = 'box move-to-position5-from-left'
+        }
+        boxes[1].className = 'box move-to-position1-from-left'
+        boxes[2].className = 'box move-to-position2-from-left'
+        boxes[3].className = 'box move-to-position3-from-left'
+        boxes[4].className = 'box move-to-position4-from-left'
+        boxes[0].remove()
+        document.querySelector('.cards__container').appendChild(tmpNode)
+      }, 500)
+    },
+    shiftRight () {
+      const boxes = document.querySelectorAll('.box')
+      boxes[4].className = 'box move-out-from-right'
+      setTimeout(function () {
+        const noOfCards = boxes.length
+        if (noOfCards > 4) {
+          boxes[4].className = 'box box--hide'
+        }
+        const tmpNode = boxes[noOfCards - 1]
+        tmpNode.classList.remove('box--hide')
+        boxes[noOfCards - 1].remove()
+        const parentObj = document.querySelector('.cards__container')
+        parentObj.insertBefore(tmpNode, parentObj.firstChild)
+        tmpNode.className = 'box move-to-position1-from-right'
+        boxes[0].className = 'box move-to-position2-from-right'
+        boxes[1].className = 'box move-to-position3-from-right'
+        boxes[2].className = 'box move-to-position4-from-right'
+        boxes[3].className = 'box move-to-position5-from-right'
+      }, 500)
+    }
   }
 }
 </script>
@@ -165,19 +204,292 @@ h4{
   padding: 0px;
   top: 200px;
   bottom: 78.97%;
-  margin-top: 120px;
+  margin-top: 100px;
+}
+.cta-about{
+  background-color: #1F1F1F;
+  opacity: 80%;
+  height: 43px;
+  width: 114px;
+  font-size: 18px;
+  padding: 8px 16px;
+  margin-left:  110px;
+}
+.cta-about:hover{
+  background-color: #1F1F1F;
 }
 .circle{
+  width: 803px;
+  height: 461px;
+  border-top-left-radius: 491px;
+  border-top-right-radius: 491px;
+  border-bottom: 0;
   position: absolute;
-  width: 744.25px;
-  height: 481px;
-  left: 0px;
-  top: 89px;
-  border-radius: 100% 100% 0px 0px;
+  left: -100px;
+  top: 109px;
 
-  background: #CEA206;
+  background: #CEA204;
 }
+
+.half-circle{
+  width: 279px;
+  height: 139px;
+  border-top-left-radius: 150px;
+  border-top-right-radius: 150px;
+  border-bottom: 0;
+  position: absolute;
+  left: 603px;
+  top: 330px;
+
+  background: #FFFFFF;
+  opacity: 73%;
+}
+
 .header-banner{
-  margin-top: 120px;
+  margin-top: 90px;
+  margin-left: 110px;
+}
+
+.button {
+    margin-left: 0 3%;
+    width: 2rem;
+    cursor: pointer;
+}
+
+.button--inactive {
+    opacity: 0.2;
+}
+
+.button img {
+    width: 60%;
+}
+
+.cards-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cards__container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 25rem;
+}
+
+.box {
+/*     margin: -1.5rem; */
+    width: 12rem;
+    height: 20rem;
+    box-shadow: 0px 0px 2rem 0px #888888;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    /* transition: 1s all; */
+}
+
+.box:nth-child(2n) {
+    transform: scale(0.85);
+    z-index: -1;
+}
+
+.box:nth-child(2) {
+  left: 5%;
+}
+
+.box:nth-child(4) {
+  left: -5%;
+}
+
+.box:nth-child(4n + 1) {
+    transform: scale(0.75);
+    z-index: -2;
+}
+
+.box:nth-child(1) {
+  left: 15%;
+}
+
+.box:nth-child(5) {
+  left: -15%;
+}
+
+.card__text-content {
+    text-align: center;
+    width: 75%;
+}
+
+.card__title {
+    padding: 1rem;
+}
+
+.box--hide {
+    display: none;
+}
+
+.move-out-from-left {
+    animation: moveOutLeft 0.5s ease-in-out;
+}
+
+.move-out-from-right {
+    animation: moveOutRight 0.5s ease-in-out;
+}
+
+.move-to-position5-from-left {
+    animation: moveToP5Left 0.5s ease-in-out;
+}
+
+.move-to-position4-from-left {
+    animation: moveToP4Left 0.5s ease-in-out;
+}
+
+.move-to-position3-from-left {
+    animation: moveToP3Left 0.5s ease-in-out;
+}
+
+.move-to-position2-from-left {
+    animation: moveToP2Left 0.5s ease-in-out;
+}
+
+.move-to-position1-from-left{
+    animation: moveToP1Left 0.5s ease-in-out;
+}
+
+.move-to-position5-from-right{
+    animation: moveToP5Right 0.5s ease-in-out;
+}
+.move-to-position4-from-right{
+    animation: moveToP4Right 0.5s ease-in-out;
+}
+.move-to-position3-from-right{
+    animation: moveToP3Right 0.5s ease-in-out;
+}
+.move-to-position2-from-right{
+    animation: moveToP2Right 0.5s ease-in-out;
+}
+.move-to-position1-from-right{
+    animation: moveToP1Right 0.5s ease-in-out;
+}
+
+@keyframes moveOutLeft {
+    0% {
+        transform: scale(0.75) translateX(0%);
+        opacity: 1;
+    }
+    50% {
+        transform: scale(0.5) translateX(-150%);
+        opacity: 0.5;
+    }
+    100% {
+        transform: scale(0.25) translateX(0%);
+        opacity: 0;
+    }
+}
+
+@keyframes moveOutRight {
+    0% {
+        transform: scale(0.75) translateX(0%);
+        opacity: 1;
+    }
+    50% {
+        transform: scale(0.5) translateX(150%);
+        opacity: 0.5;
+    }
+    100% {
+        transform: scale(0.25) translateX(0%);
+        opacity: 0;
+    }
+}
+
+@keyframes moveToP5Left {
+    from {
+        transform: scale(0.75) translateX(100%);
+    }
+    to {
+        transform: scale(0.75) translateX(0);
+    }
+}
+
+@keyframes moveToP4Left {
+    from {
+        transform: scale(0.75) translateX(100%);
+    }
+    to {
+        transform: scale(0.85) translateX(0);
+    }
+}
+
+@keyframes moveToP3Left {
+    from {
+        transform: scale(0.85) translateX(100%);
+    }
+    to {
+        transform: scale(1) translateX(0);
+    }
+}
+
+@keyframes moveToP2Left {
+    from {
+        transform: scale(1) translateX(100%);
+    }
+    to {
+        transform: scale(0.85) translateX(0);
+    }
+}
+
+@keyframes moveToP1Left {
+    from {
+        transform: scale(0.85) translateX(100%);
+    }
+    to {
+        transform: scale(0.75) translateX(0);
+    }
+}
+
+@keyframes moveToP1Right {
+    from {
+        transform: scale(0.75) translateX(-100%);
+    }
+    to {
+        transform: scale(0.75) translateX(0);
+    }
+}
+
+@keyframes moveToP2Right {
+    from {
+        transform: scale(0.75) translateX(-100%);
+    }
+    to {
+        transform: scale(0.85) translateX(0);
+    }
+}
+
+@keyframes moveToP3Right {
+    from {
+        transform: scale(0.85) translateX(-100%);
+    }
+    to {
+        transform: scale(1) translateX(0);
+    }
+}
+
+@keyframes moveToP4Right {
+    from {
+        transform: scale(1) translateX(-100%);
+    }
+    to {
+        transform: scale(0.85) translateX(0);
+    }
+}
+
+@keyframes moveToP5Right {
+    from {
+        transform: scale(0.85) translateX(-100%);
+    }
+    to {
+        transform: scale(0.75) translateX(0);
+    }
 }
 </style>
