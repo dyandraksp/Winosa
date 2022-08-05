@@ -30,113 +30,232 @@
   </div>
 <div class="about">
 <h3>Developer</h3>
-<div class="grid-container">
-<div class="item1">
+<div class="grid-container" style="display: flex; align-items: center; justify-content: center; ">
+<div class="button" @click="shiftLeft()"><img src="https://image.ibb.co/mRsEb7/left_arrow.png" alt=""></div>
+<div
+  v-if="checkActiveArray(1)"
+  class="item">
 <div class="card">
-  <img :src="img_samira" style="width:281px; height: 322px; object-fit: cover;">
+  <img src="../assets/andika.png" style="width:281px; height: 322px; object-fit: cover;">
   <div class="container">
-    <h4><b>Mauli Maro</b></h4>
-    <p>Jr. Content Creator</p>
+    <h4><b>Andika K</b></h4>
+    <p>Full-Stack Dev</p>
   </div>
 </div>
 </div>
-<div class="item2">
+<div
+  v-if="checkActiveArray(2)"
+  class="item">
 <div class="card">
-  <img :src="img_samira" style="width:281px; height: 322px; object-fit: cover;">
+  <img src="../assets/arif.png" style="width:281px; height: 322px; object-fit: cover;">
   <div class="container">
-    <h4><b>Mauli Maro</b></h4>
-    <p>Jr. Content Creator</p>
+    <h4><b>Arif M</b></h4>
+    <p>Full-Stack Dev</p>
   </div>
 </div>
 </div>
-<div class="item3">
+<div
+  v-if="checkActiveArray(3)"
+  class="item">
 <div class="card">
-  <img :src="img_samira" style="width:281px; height: 322px; object-fit: cover;">
+  <img src="../assets/rachmat.png" style="width:281px; height: 322px; object-fit: cover;">
   <div class="container">
-    <h4><b>Mauli Maro</b></h4>
-    <p>Jr. Content Creator</p>
+    <h4><b>Rachmat F</b></h4>
+    <p>Full-Stack Dev</p>
   </div>
 </div>
 </div>
+<div
+  v-if="checkActiveArray(4)"
+  class="item">
+<div class="card">
+  <img src="../assets/iqbal.png" style="width:281px; height: 322px; object-fit: cover;">
+  <div class="container">
+    <h4><b>M Iqbal F</b></h4>
+    <p>Java Software Dev</p>
+  </div>
+</div>
+</div>
+<div
+  v-if="checkActiveArray(5)"
+  class="item">
+<div class="card">
+  <img src="../assets/leo.png" style="width:281px; height: 322px; object-fit: cover;">
+  <div class="container">
+    <h4><b>Leonardo G</b></h4>
+    <p>Full-Stack Dev</p>
+  </div>
+</div>
+</div>
+<div
+  v-if="checkActiveArray(6)"
+  class="item">
+<div class="card">
+  <img src="../assets/mardiyanto.png" style="width:281px; height: 322px; object-fit: cover;">
+  <div class="container">
+    <h4><b>Mardiyanto W</b></h4>
+    <p>Full-Stack Dev</p>
+  </div>
+</div>
+</div>
+<div
+  v-if="checkActiveArray(7)"
+  class="item">
+<div class="card">
+  <img src="../assets/nur_k.png" style="width:281px; height: 322px; object-fit: cover;">
+  <div class="container">
+    <h4><b>Nur K</b></h4>
+    <p>Full-Stack Dev</p>
+  </div>
+</div>
+</div>
+<div
+  v-if="checkActiveArray(8)"
+  class="item">
+<div class="card">
+  <img src="../assets/rizki.png" style="width:281px; height: 322px; object-fit: cover;">
+  <div class="container">
+    <h4><b>Rizki AP</b></h4>
+    <p>Full-Stack Dev</p>
+  </div>
+</div>
+</div>
+<div
+  v-if="checkActiveArray(9)"
+  class="item">
+<div class="card">
+  <img src="../assets/mauli.png" style="width:281px; height: 322px; object-fit: cover;">
+  <div class="container">
+    <h4><b>S Pulung</b></h4>
+    <p>Full-Stack Dev</p>
+  </div>
+</div>
+</div>
+<div class="button" @click="shiftRight()"><img src="https://image.ibb.co/dfPSw7/right_arrow.png" alt=""></div>
 </div>
 <h3>UI/UX</h3>
 <div class="grid-container">
 <div class="item1">
 <div class="card">
-  <img :src="img_samira" style="width:281px; height: 322px; object-fit: cover;">
+  <img src="../assets/anjas.png" style="width:281px; height: 322px; object-fit: cover;">
   <div class="container">
-    <h4><b>Mauli Maro</b></h4>
-    <p>Jr. Content Creator</p>
+    <h4><b>Anjas R</b></h4>
+    <p>Lead UI/UX</p>
   </div>
 </div>
 </div>
 <div class="item2">
 <div class="card">
-  <img :src="img_samira" style="width:281px; height: 322px; object-fit: cover;">
+  <img src="../assets/fitra.png" style="width:281px; height: 322px; object-fit: cover;">
   <div class="container">
-    <h4><b>Mauli Maro</b></h4>
-    <p>Jr. Content Creator</p>
+    <h4><b>Fitra P</b></h4>
+    <p>UI/UX Graphic Designer</p>
   </div>
 </div>
 </div>
 <div class="item3">
 <div class="card">
-  <img :src="img_samira" style="width:281px; height: 322px; object-fit: cover;">
+  <img src="../assets/fahri.png" style="width:281px; height: 322px; object-fit: cover;">
   <div class="container">
-    <h4><b>Mauli Maro</b></h4>
-    <p>Jr. Content Creator</p>
+    <h4><b>Fahri A</b></h4>
+    <p>UI/UX Graphic Designer</p>
   </div>
 </div>
 </div>
 </div>
 <h3>Quality Assurance</h3>
-<div class="grid-container">
-<div class="item1">
+<div class="grid-container" style="display: flex; align-items: center; justify-content: center; ">
+<div class="button" @click="shiftLeft()"><img src="https://image.ibb.co/mRsEb7/left_arrow.png" alt=""></div>
+<div
+  v-if="checkActiveArray(1)"
+  class="item">
 <div class="card">
-  <img :src="img_samira" style="width:281px; height: 322px; object-fit: cover;">
+  <img src="../assets/afifa.png" style="width:281px; height: 322px; object-fit: cover;">
   <div class="container">
-    <h4><b>Mauli Maro</b></h4>
-    <p>Jr. Content Creator</p>
+    <h4><b>Afifa Mayang L</b></h4>
+    <p>QA Test Analyst</p>
   </div>
 </div>
 </div>
-<div class="item2">
+<div
+  v-if="checkActiveArray(2)"
+  class="item">
 <div class="card">
-  <img :src="img_samira" style="width:281px; height: 322px; object-fit: cover;">
+  <img src="../assets/abiyyu.png" style="width:281px; height: 322px; object-fit: cover;">
   <div class="container">
-    <h4><b>Mauli Maro</b></h4>
-    <p>Jr. Content Creator</p>
+    <h4><b>Abiyyu Al G</b></h4>
+    <p>QA Test Analyst</p>
   </div>
 </div>
 </div>
-<div class="item3">
+<div
+  v-if="checkActiveArray(3)"
+  class="item">
 <div class="card">
-  <img :src="img_samira" style="width:281px; height: 322px; object-fit: cover;">
+  <img src="../assets/barca.png" style="width:281px; height: 322px; object-fit: cover;">
   <div class="container">
-    <h4><b>Mauli Maro</b></h4>
-    <p>Jr. Content Creator</p>
+    <h4><b>Barca YS</b></h4>
+    <p>QA Test Analyst</p>
   </div>
 </div>
 </div>
+<div
+  v-if="checkActiveArray(4)"
+  class="item">
+<div class="card">
+  <img src="../assets/aji.png" style="width:281px; height: 322px; object-fit: cover;">
+  <div class="container">
+    <h4><b>Aji F</b></h4>
+    <p>QA/Security Tester</p>
+  </div>
+</div>
+</div>
+<div
+  v-if="checkActiveArray(5)"
+  class="item">
+<div class="card">
+  <img src="../assets/josua.png" style="width:281px; height: 322px; object-fit: cover;">
+  <div class="container">
+    <h4><b>Josua S</b></h4>
+    <p>QA Test Analyst</p>
+  </div>
+</div>
+</div>
+<div
+  v-if="checkActiveArray(6)"
+  class="item">
+<div class="card">
+  <img src="../assets/ageng.png" style="width:281px; height: 322px; object-fit: cover;">
+  <div class="container">
+    <h4><b>Ageng F</b></h4>
+    <p>QA Test Analyst</p>
+  </div>
+</div>
+</div>
+<div class="button" @click="shiftRight()"><img src="https://image.ibb.co/dfPSw7/right_arrow.png" alt=""></div>
 </div>
 <h3>Digital Marketing</h3>
 <div class="grid-container">
-<div class="item1">
+<div class="item">
 <div class="card">
-  <img :src="img_samira" style="width:281px; height: 322px; object-fit: cover;">
+  <img src="../assets/mauli.png" style="width:281px; height: 322px; object-fit: cover;">
   <div class="container">
     <h4><b>Mauli Maro</b></h4>
     <p>Jr. Content Creator</p>
   </div>
 </div>
 </div>
-<div class="item2">
+<div class="item">
 <div class="card">
-  <img :src="img_samira" style="width:281px; height: 322px; object-fit: cover;">
+  <img src="../assets/mauli.png" style="width:281px; height: 322px; object-fit: cover;">
   <div class="container">
     <h4><b>Mauli Maro</b></h4>
     <p>Jr. Content Creator</p>
   </div>
+</div>
+</div>
+<div class="item">
+<div class="card">
 </div>
 </div>
 </div>
@@ -158,6 +277,8 @@ export default {
   name: 'app-head',
   data () {
     return {
+      activeIndex: [1, 2, 3],
+      totalItems: 9,
       banners: [
         'https://images.unsplash.com/photo-1556761175-b413da4baf72?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1974&q=80'
       ],
@@ -166,7 +287,26 @@ export default {
       ]
     }
   },
-  methods: {}
+  computed: {
+  },
+  methods: {
+    shiftLeft () {
+      if (this.activeIndex[0] !== 1) {
+        this.activeIndex[2] = this.activeIndex[1]
+        this.activeIndex[1] = this.activeIndex[0]
+        this.activeIndex[0] = this.activeIndex[0] - 1
+      }
+    },
+    shiftRight () {
+      if (this.activeIndex[2] !== this.totalItems) {
+        this.activeIndex.push(this.activeIndex[2] + 1)
+        this.activeIndex.splice(0, 1)
+      }
+    },
+    checkActiveArray (index) {
+      return this.activeIndex.includes(index)
+    }
+  }
 }
 </script>
 <style>
@@ -185,8 +325,6 @@ h3{
 .card {
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   background-color: white;
-  width: 281px;
-  height: 455px;
   border-radius: 0;
   margin-bottom: 75px;
   text-align: left;

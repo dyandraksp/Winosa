@@ -62,7 +62,9 @@
 <h3>Management</h3>
 <div class="grid-container" style="display: flex; align-items: center; justify-content: center; ">
 <div class="button" @click="shiftLeft()"><img src="https://image.ibb.co/mRsEb7/left_arrow.png" alt=""></div>
-<div class="item1">
+<div
+  v-if="checkActiveArray(1)"
+  class="item">
 <div class="card">
   <img :src="img_samira" style="width:281px; height: 259px; object-fit: cover;">
   <div class="container">
@@ -72,7 +74,9 @@
   </div>
 </div>
 </div>
-<div class="item2">
+<div
+  v-if="checkActiveArray(2)"
+  class="item">
 <div class="card">
   <img :src="img_samira" style="width:281px; height: 259px; object-fit: cover;">
   <div class="container">
@@ -82,13 +86,39 @@
   </div>
 </div>
 </div>
-<div class="item3">
+<div
+  v-if="checkActiveArray(3)"
+  class="item">
 <div class="card">
   <img :src="img_samira" style="width:281px; height: 259px; object-fit: cover;">
   <div class="container">
     <h4 style="text-align: center;"><b>Billy Bharatadjaya <br/> (General Manager) </b></h4>
     <p style="font-size: 16px; text-align: center;">Business development, Strategic alliances
     <br/> Indonesian, Dutch and English</p>
+  </div>
+</div>
+</div>
+<div
+  v-if="checkActiveArray(4)"
+  class="item">
+<div class="card">
+  <img :src="img_samira" style="width:281px; height: 259px; object-fit: cover;">
+  <div class="container">
+    <h4 style="text-align: center;"><b>Muhammad Reza<br/> (Business Consultant) </b></h4>
+    <p style="font-size: 16px; text-align: center;">Business development, Computer science
+    <br/> Languages: Indonesian and English</p>
+  </div>
+</div>
+</div>
+<div
+  v-if="checkActiveArray(5)"
+  class="item">
+<div class="card">
+  <img :src="img_samira" style="width:281px; height: 259px; object-fit: cover;">
+  <div class="container">
+    <h4 style="text-align: center;"><b>Ariananda Desmaria<br/> (Program Manager) </b></h4>
+    <p style="font-size: 16px; text-align: center;">HR, Market entry
+    <br/> Languages: Indonesian and English</p>
   </div>
 </div>
 </div>
@@ -101,6 +131,8 @@ export default {
   name: 'app-head',
   data () {
     return {
+      activeIndex: [1, 2, 3],
+      totalItems: 5,
       banners: [
         'https://images.unsplash.com/photo-1606857521015-7f9fcf423740?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80'
       ],
@@ -109,43 +141,24 @@ export default {
       ]
     }
   },
+  computed: {
+  },
   methods: {
     shiftLeft () {
-      const boxes = document.querySelectorAll('.box')
-      const tmpNode = boxes[0]
-      boxes[0].className = 'box move-out-from-left'
-      setTimeout(function () {
-        if (boxes.length > 5) {
-          tmpNode.classList.add('box--hide')
-          boxes[5].className = 'box move-to-position5-from-left'
-        }
-        boxes[1].className = 'box move-to-position1-from-left'
-        boxes[2].className = 'box move-to-position2-from-left'
-        boxes[3].className = 'box move-to-position3-from-left'
-        boxes[4].className = 'box move-to-position4-from-left'
-        boxes[0].remove()
-        document.querySelector('.cards__container').appendChild(tmpNode)
-      }, 500)
+      if (this.activeIndex[0] !== 1) {
+        this.activeIndex[2] = this.activeIndex[1]
+        this.activeIndex[1] = this.activeIndex[0]
+        this.activeIndex[0] = this.activeIndex[0] - 1
+      }
     },
     shiftRight () {
-      const boxes = document.querySelectorAll('.box')
-      boxes[4].className = 'box move-out-from-right'
-      setTimeout(function () {
-        const noOfCards = boxes.length
-        if (noOfCards > 4) {
-          boxes[4].className = 'box box--hide'
-        }
-        const tmpNode = boxes[noOfCards - 1]
-        tmpNode.classList.remove('box--hide')
-        boxes[noOfCards - 1].remove()
-        const parentObj = document.querySelector('.cards__container')
-        parentObj.insertBefore(tmpNode, parentObj.firstChild)
-        tmpNode.className = 'box move-to-position1-from-right'
-        boxes[0].className = 'box move-to-position2-from-right'
-        boxes[1].className = 'box move-to-position3-from-right'
-        boxes[2].className = 'box move-to-position4-from-right'
-        boxes[3].className = 'box move-to-position5-from-right'
-      }, 500)
+      if (this.activeIndex[2] !== this.totalItems) {
+        this.activeIndex.push(this.activeIndex[2] + 1)
+        this.activeIndex.splice(0, 1)
+      }
+    },
+    checkActiveArray (index) {
+      return this.activeIndex.includes(index)
     }
   }
 }
@@ -275,45 +288,6 @@ h4{
     align-items: center;
     justify-content: center;
     height: 25rem;
-}
-
-.box {
-/*     margin: -1.5rem; */
-    width: 12rem;
-    height: 20rem;
-    box-shadow: 0px 0px 2rem 0px #888888;
-    background-color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    /* transition: 1s all; */
-}
-
-.box:nth-child(2n) {
-    transform: scale(0.85);
-    z-index: -1;
-}
-
-.box:nth-child(2) {
-  left: 5%;
-}
-
-.box:nth-child(4) {
-  left: -5%;
-}
-
-.box:nth-child(4n + 1) {
-    transform: scale(0.75);
-    z-index: -2;
-}
-
-.box:nth-child(1) {
-  left: 15%;
-}
-
-.box:nth-child(5) {
-  left: -15%;
 }
 
 .card__text-content {

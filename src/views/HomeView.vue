@@ -70,17 +70,11 @@ color: #5D5D5D;">
 </div>
 <hr/>
 <h3>Layanan</h3>
-<div class="grid-container-layanan">
+<div class="grid-container-layanan" style="margin-bottom: 300px;">
   <div class="item1">
     <img :src="img5" style="width:86px; height:75px; object-fit: fill;">
-     <h4 style="text-align: center; font-size: 32px; font-weight: 500;">Bussines <br/>Development</h4> <br/>
-     <p style="height: 149px;
-width: 275px;
-left: 146px;
-top: 1980px;
-border-radius: nullpx;
-">
-       1. Create cultural awareness
+     <h4 style="text-align: center; font-size: 32px; font-weight: 500;">Bussines <br/>Development</h4>
+     <p class="layanan-konten">1. Create cultural awareness
 <br>
 2. Market research and introduction
 <br>
@@ -97,21 +91,7 @@ border-radius: nullpx;
   <div class="item2">
     <img :src="img6" style="width:86px; height:75px; object-fit: fill;">
      <h4 style="text-align: center; font-size: 32px; font-weight: 500;">Outsourcing</h4> <br>
-     <p style="margin-left: 1px;
-width: 245px;
-height: 149px;
-left: 553px;
-top: 1974px;
-
-font-family: inter, sans-serif;
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 19px;
-letter-spacing: 0.25px;
-
-color: #5D5D5D;
-">
+     <p class="layanan-konten">
        We provide offshore services to support you in developing the next generation killer application.
        Whether you need test analysts, full stack, frontend or backend developers for your web or mobile applications
        you can partner with us to extend your local development team or fully outsource development and testing to Winosa.
@@ -123,44 +103,19 @@ color: #5D5D5D;
   <div class="item3">
     <img :src="img7" style="width:86px; height:75px; object-fit: fill;">
      <h4 style="text-align: center; font-size: 32px; font-weight: 500;">Legal</h4> <br>
-     <p style="
-width: 245px;
-height: 149px;
-left: 955px;
-top: 1980px;
-
-font-family: inter,sans-serif;
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 19px;
-letter-spacing: 0.25px;
-
-color: #5D5D5D;
-">
-       Once you decide to enter the Indonesian market our Legal advisors will guide you through all the necessary legal, bureaucratic and tax-office requirements. Our Legal officers offer a one-shop all-in-one service so you can focus on your business.
+     <p class="layanan-konten">
+       Once you decide to enter the Indonesian market our Legal advisors will guide you through
+        all the necessary legal, bureaucratic and tax-office requirements. Our Legal officers offer
+         a one-shop all-in-one service so you can focus on your business.
       </p>
   </div>
 </div>
-<p></p>
-<p></p>
-<p></p>
 <div class="grid-container">
 <div class="item1">
   <img src="../assets/contact_home.jpg" style="width: 431px; height: 431px;"/>
 </div>
 <div class="item2">
-  <h4 style="
-width: 505px;
-height: 74px;
-left: 155px;
-top: 1256px;
-line-height: 24px;
-font-weight: 600;
-color: black;
-text-align:left;">
-Apakah Anda Berminat Bisnis Dengan Kami?
-</h4>
+  <h4>Apakah Anda Berminat Bisnis Dengan Kami?</h4>
 <button style="width:168px; height: 40px; padding: 8px 16px; font-size: 20px; margin-top: 14px;">Hubungi Kami</button>
 </div>
 </div>
@@ -232,5 +187,11 @@ button{
 
 .header-banner-home{
   margin-top: 120px;
+}
+.layanan-konten{
+  width: 245px;
+  height: 149px;
+  left: 553px;
+  top: 1980px;
 }
 </style>
