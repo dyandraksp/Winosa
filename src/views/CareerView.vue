@@ -99,7 +99,7 @@ font-size: 26px;
 line-height: 150%;
 /* or 48px */
 
-color: #000000;"><router-link to="/detailcareer1">Senior Java and/or .NET Programmer (Developer)</router-link></bodycard>
+color: #000000;"><router-link style="color: #000000;" to="/detailcareer1">Senior Java and/or .NET Programmer (Developer)</router-link></bodycard>
     </div>
   </div>
 </div>
@@ -128,7 +128,7 @@ font-size:26px;
 line-height: 150%;
 /* or 48px */
 
-color: #000000;">Magang Full-Stack Developer (PHP-Java)</bodycard>
+color: #000000;"><router-link style="color: #000000;" to="/detailcareer2">Magang Full-Stack Developer (PHP-Java) </router-link></bodycard>
     </div>
   </div>
 </div>
@@ -155,7 +155,7 @@ font-size: 26px;
 line-height: 150%;
 /* or 48px */
 
-color: #000000;">QA Software Tester</bodycard>
+color: #000000;"><router-link style="color: #000000;" to="/detailcareer3">QA Software Tester</router-link></bodycard>
     </div>
   </div>
 </div>

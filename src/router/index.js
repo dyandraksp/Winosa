@@ -8,6 +8,8 @@ import Contact from '../views/ContactView'
 import Tim from '../views/TimView'
 import detailcareer1 from '../views/detailcareer1'
 import formcareer from '../views/formcareer'
+import detailcareer2 from '../views/detailcareer2'
+import detailcareer3 from '../views/detailcareer3'
 const routes = [
   {
     path: '/',
@@ -53,6 +55,16 @@ const routes = [
     path: '/formcareer',
     name: 'formcareer',
     component: formcareer
+  },
+  {
+    path: '/detailcareer2',
+    name: 'detailcareer2',
+    component: detailcareer2
+  },
+  {
+    path: '/detailcareer3',
+    name: 'detailcareer3',
+    component: detailcareer3
   }
 ]
 
