@@ -13,9 +13,25 @@
           :key="idx"
         >
           <img :src="banner" alt="" class="img-fluid" style="height: 570px; width: 100%; object-fit: cover;" />
+            <div class="banner-portfolio">
+            <h2>PORTFOLIO</h2>
+            <p style="color:white; margin-left: 156px; font-size: 20px; font-weight: 480;">Kami adalah multi-budaya yang terdiri dari orang-<br/>
+              orang yang antusias, bersemangat, dan <br/>
+              berorientasi pada target. Kami menantikan untuk <br/>
+              bekerjasama dan mendukung bisnis anda.</p>
+          </div>
         </div>
     </div>
     </div>
+</div>
+<div class="portfolio">
+  <div class="button" @click="shiftLeft()"><img src="https://image.ibb.co/mRsEb7/left_arrow.png" alt=""></div>
+  <div class="img-portfolio">
+    <router-link to="/tim">
+    <img src="../assets/portfolio_xdemia.png" >
+  </router-link>
+  </div>
+  <div class="button" @click="shiftRight()"><img src="https://image.ibb.co/dfPSw7/right_arrow.png" alt=""></div>
 </div>
 </template>
 <script>
@@ -30,3 +46,28 @@ export default {
   }
 }
 </script>
+<style>
+  .banner-portfolio{
+    margin-top: 90px;
+    margin-left: 110px;
+    width: 803px;
+    height: 461px;
+    border-top-left-radius: 491px;
+    border-top-right-radius: 491px;
+    border-bottom: 0;
+    position: absolute;
+    left: -100px;
+    top: 109px;
+  }
+
+  .portfolio{
+    display: flex;
+    margin-top: 120px;
+  }
+
+  .img-portfolio{
+    position: absolute;
+    display: flex;
+    left: 284px;
+  }
+</style>
