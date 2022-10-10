@@ -28,13 +28,7 @@
 <body>
 
 <div class="sidenav" >
-  <h1 style="position: absolute;
-width: 534px;
-height: 84px;
-left: 158px;
-top: 280px;
-
-font-family: Inter, sans-serif ;
+  <h1 style="position: absolute; width: 534px; height: 84px; left: 158px; top: 280px; font-family: Inter, sans-serif ;
 font-style: normal;
 font-weight: 700;
 font-size: 56px;

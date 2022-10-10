@@ -151,10 +151,9 @@
     font-size: 20px;
     width: 1080px; height: 200px;
     line-height: 150%;">
-      <li>Terbiasa menggunakan GIT</li>
-      <li>Familiar dengan framework front end seperti laravel, codeigniter, symfony, spring, struts, vaadin, ASP.NET, dll</li>
-      <li>Familiar dengan Object Relationall Mapping (ORM) seperti (tetapi)</li>
-      <li>Familiar dengan database dan query SQL</li>
+      <li>Terbiasa dengan pengujian penerimaan pengguna, skrip, pengujian regresi </li>
+      <li>Familiar dengan alat otomatisasi seperti selenium, robot framework</li>
+
     </ul>
     <div class="button">
                 <button style="background-color: #CEA206; width: 159px;

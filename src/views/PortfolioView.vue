@@ -28,7 +28,7 @@
   <div class="button" @click="shiftLeft()" style="margin-left: 156px;"><img src="https://image.ibb.co/mRsEb7/left_arrow.png" alt=""></div>
   <div class="img-portfolio" style="margin-left: 110px;">
     <router-link to="/XdemiaView">
-    <img src="../assets/portfolio_xdemia.png" >
+    <img src="../assets/portfolio_xdemia.png" class="xdemia">
   </router-link>
   </div>
   <div class="button" @click="shiftRight()" style="margin-left: 110px;"><img src="https://image.ibb.co/dfPSw7/right_arrow.png" alt=""></div>
@@ -104,7 +104,11 @@ export default {
 
   .img-portfolio{
     position: relative;
-    display: flex;
     left: 284px;
+  }
+
+  .xdemia{
+    width: 874px;
+    height: 347px;
   }
 </style>
