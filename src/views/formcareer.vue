@@ -29,34 +29,112 @@
     </div>
   </div>
 <div class="about">
-<h3>Visi Perusahaan</h3>
-<p>
-  Menjadi salah satu perusahaan penyedia jasa konsultan dan
-  pengembangan bisnis di bidang IT yang terpercaya untuk memberikan
-  solusi yang inovatif dan mampu bersaing dalam skala nasional dan internasional.
-</p>
-<hr/>
-<h3>Misi Perusahaan</h3>
-<p>
-  Winosa memiliki misi untuk menjaga dan meningkatkan kualitas profesionalisme.
-  Winosa juga berorientasi kepada kepuasan dan keberhasilan bisnis pelanggan.
-  Efektifitas efesiensi serta produktifitas dalam pendampingan dan pengembangan bisnis pelanggan.
-  Winosa berkomitmen tinggi dalam setiap pendampingan dan pengembangan bisnis pelanggan.
-  Menyediakan sumber daya manusia yang berkualitas sebagai pusat pengembangan dan pendampingan bisnis.
-</p>
-<hr/>
-<h3>Sejarah Perusahaan</h3>
-<p>
-  PT Winosa Bharatadjaya didirikan pada tahun 2020 sebagai konsultan bisnis
-  dan pengembangan perangkat lunak yang berada di Bandar Lampung.
-  Kami telah membangun koneksi internasional di Belanda, Australia dan
-  Selandia Baru dan saat ini kami sedang memperluas ke wilayah lain.
-  PT Winosa Mitra Bharatadjaya memiliki sumber daya manusia di bidang IT,
-  bisnis dan legal, yaitu tim penguji, tim pengembang software, tim design
-  beserta tim pendukung pengembangan bisnis untuk pemenuhan permintaan bisnis.
-</p>
-<hr/>
+<h3 style="text-align: left;">Kirimkan Kami CV Kalian!</h3>
 </div>
+<form action="/action_page.php">
+ <div class="grid">
+  <div><label for="fname" style="text-align: left; margin-left: 152px;
+height: 26px;
+width: 510px;
+left: 160px;
+top: 846px;
+
+font-family: Inter, sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 150%;
+/* or 30px */
+
+color: #5D5D5D;
+">Nama</label><br></div>
+<br>
+  <div><label for="lname" style="text-align: left; margin-left: 4px; left: 200px;
+right: 33.96%;
+top: 780px;
+bottom: 50.91%;
+
+font-family: Inter, sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 150%;
+/* or 30px */
+
+color: #5D5D5D;
+"> Email</label></div>
+  <br>
+  <div> <input type="text" id="fname" name="fname" value="Nama Lengkap" style=" opacity:50% ;text-align: left; margin-left: 152px;left: 110px; width: 480px; height: 48px;
+right: 24px;top: 780px; bottom: 46.99%; background: #FFFFFF; border: 1px solid rgba(0, 0, 0, 0.5);
+border-radius: 4px;"> </div>
+<br>
+ <div><input type="text" id="fname" name="fname" value="Email@example.com" style=" opacity:50% ;margin-left: 4px; text-align: left;left: 10px; width: 480px; height: 48px;
+right: 24px;top: 780px; bottom: 46.99%; background: #FFFFFF; border: 1px solid rgba(0, 0, 0, 0.5);
+border-radius: 4px;"> </div>
+</div>
+<br>
+
+ <label for="fname" style="text-align: left; margin-left: 162px;
+left: 11.04%;
+right: 75.49%;
+top: 100px;
+bottom: 44.14%;
+
+font-family: Inter, sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 150%;
+/* or 30px */
+
+color: #5D5D5D;
+">Subject</label><br>
+
+  <input type="text" id="fname" name="fname" value="Subject" style=" text-align: left; margin-left: 162px;left: 110px; width: 1175px; height: 48px;
+right: 24px;
+top: 780px;
+opacity: 50%;
+margin-bottom: 24px;
+background: #FFFFFF;
+border: 1px solid rgba(0, 0, 0, 0.5);
+border-radius: 4px;">
+ <label for="fname" style="text-align: left; margin-left: 160px;
+left: 11.04%;top: 20px;
+font-family: Inter, sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 150%;
+/* or 30px */
+
+color: #5D5D5D;
+">Pesan</label><br>
+  <input type="text" id="fname" name="fname"  style="font-family: Inter, sans-serif;
+font-style: normal;
+font-weight: 400; text-align: left; margin-left: 160px; width: 1175px; height: 167px;
+left: 11.11%;
+right: 10.56%;
+top: 1036px;
+bottom: 27.7%;
+opacity: 50%;
+background: #FFFFFF;
+border: 1px solid rgba(0, 0, 0, 0.5);
+border-radius: 4px;line-height: 150%;">
+
+  <div class="button">
+            <button style="background-color: #CEA206;margin-left: 1210px; height: 52px;
+width: 120px;
+left: 1170px;
+top: 1383px;
+border-radius: 4px;
+padding: 8px, 32px, 8px, 32px; bottom:300px;align-items: flex-start; ">
+            <router-link to="/formcareer" class="text-white">Kirim</router-link></button>
+          </div>
+          <br>
+<p></p>
+<p></p>
+</form>
+
 </template>
 <script>
 export default {
