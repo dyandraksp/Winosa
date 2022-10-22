@@ -32,105 +32,117 @@
   </div>
   <h3>Ulasan Klien</h3>
   <div class="qwerty">
-    <div class="button" @click="shiftLeft()"><img src="https://image.ibb.co/mRsEb7/left_arrow.png" alt=""></div>
   <div class="container" style="margin-bottom: 262px; margin-top: 48px;">
     <div class="cards-wrapper">
-        <ul class="cards__container">
-            <li class="box box--hide">
-              <div class="cardd">
-                <div class="client">
-                  <img :src="img_samira" class="img-client">
-                </div>
-              <div class="container-cardd">
-                <h4 style="text-align: center;"><b>Nama Klien</b></h4>
-                <p style="font-size: 16px; text-align: left; margin: 40px 28px;">Lorem ipsum dolor sit amet, consectetur
-                adipiscing elit. Sed nibh purus, dapibus in semper nec, venenatis vel elit.
-                Nam id sem tristique lorem porttitor faucibus at id dolor.</p>
-              </div>
+      <div class="cards__container">
+        <div
+          @click="setActive(0)"
+          class="box">
+          <div class="cardd">
+            <div class="client">
+              <img :src="img_samira" class="img-client">
             </div>
-            </li>
-            <li class="box">
-              <div class="cardd">
-                <div class="client">
-                  <img :src="img_samira" class="img-client">
-                </div>
-              <div class="container-cardd">
-                <h4 style="text-align: center;"><b>Nama Klien</b></h4>
-                <p style="font-size: 16px; text-align: left; margin: 40px 28px;">Lorem ipsum dolor sit amet, consectetur
-                adipiscing elit. Sed nibh purus, dapibus in semper nec, venenatis vel elit.
-                Nam id sem tristique lorem porttitor faucibus at id dolor.</p>
-              </div>
+            <div class="container-cardd">
+              <h4 style="text-align: center;"><b>Nama Klien 1</b></h4>
+              <p style="font-size: 16px; text-align: left; margin: 40px 28px;">Lorem ipsum dolor sit amet, consectetur
+              adipiscing elit. Sed nibh purus, dapibus in semper nec, venenatis vel elit.
+              Nam id sem tristique lorem porttitor faucibus at id dolor.</p>
             </div>
-            </li>
-            <li class="box">
-              <div class="cardd">
-                <div class="client">
-                  <img :src="img_samira" class="img-client">
-                </div>
-              <div class="container-cardd">
-                <h4 style="text-align: center;"><b>Nama Klien</b></h4>
-                <p style="font-size: 16px; text-align: left; margin: 40px 28px;">Lorem ipsum dolor sit amet, consectetur
-                adipiscing elit. Sed nibh purus, dapibus in semper nec, venenatis vel elit.
-                Nam id sem tristique lorem porttitor faucibus at id dolor.</p>
-              </div>
+          </div>
+        </div>
+        <div
+          @click="setActive(1)"
+          class="box">
+          <div class="cardd">
+            <div class="client">
+              <img :src="img_samira" class="img-client">
             </div>
-            </li>
-            <li class="box">
-              <div class="cardd">
-                <div class="client">
-                  <img :src="img_samira" class="img-client">
-                </div>
-              <div class="container-cardd">
-                <h4 style="text-align: center;"><b>Nama Klien</b></h4>
-                <p style="font-size: 16px; text-align: left; margin: 40px 28px;">Lorem ipsum dolor sit amet, consectetur
-                adipiscing elit. Sed nibh purus, dapibus in semper nec, venenatis vel elit.
-                Nam id sem tristique lorem porttitor faucibus at id dolor.</p>
-              </div>
+            <div class="container-cardd">
+              <h4 style="text-align: center;"><b>Nama Klien 2</b></h4>
+              <p style="font-size: 16px; text-align: left; margin: 40px 28px;">Lorem ipsum dolor sit amet, consectetur
+              adipiscing elit. Sed nibh purus, dapibus in semper nec, venenatis vel elit.
+              Nam id sem tristique lorem porttitor faucibus at id dolor.</p>
             </div>
-            </li>
-            <li class="box box--hide">
-              <div class="cardd">
-                <div class="client">
-                  <img :src="img_samira" class="img-client">
-                </div>
-              <div class="container-cardd">
-                <h4 style="text-align: center;"><b>Nama Klien</b></h4>
-                <p style="font-size: 16px; text-align: left; margin: 40px 28px;">Lorem ipsum dolor sit amet, consectetur
-                adipiscing elit. Sed nibh purus, dapibus in semper nec, venenatis vel elit.
-                Nam id sem tristique lorem porttitor faucibus at id dolor.</p>
-              </div>
+          </div>
+        </div>
+        <div
+          @click="setActive(2)"
+          class="box">
+          <div class="cardd">
+            <div class="client">
+              <img :src="img_samira" class="img-client">
             </div>
-            </li>
-            <li class="box box--hide">
-              <div class="cardd">
-                <div class="client">
-                  <img :src="img_samira" class="img-client">
-                </div>
-              <div class="container-cardd">
-                <h4 style="text-align: center;"><b>Nama Klien</b></h4>
-                <p style="font-size: 16px; text-align: left; margin: 40px 28px;">Lorem ipsum dolor sit amet, consectetur
-                adipiscing elit. Sed nibh purus, dapibus in semper nec, venenatis vel elit.
-                Nam id sem tristique lorem porttitor faucibus at id dolor.</p>
-              </div>
+            <div class="container-cardd">
+              <h4 style="text-align: center;"><b>Nama Klien 3</b></h4>
+              <p style="font-size: 16px; text-align: left; margin: 40px 28px;">Lorem ipsum dolor sit amet, consectetur
+              adipiscing elit. Sed nibh purus, dapibus in semper nec, venenatis vel elit.
+              Nam id sem tristique lorem porttitor faucibus at id dolor.</p>
             </div>
-            </li>
-            <li class="box box--hide">
-              <div class="cardd">
-                <div class="client">
-                  <img :src="img_samira" class="img-client">
-                </div>
-              <div class="container-cardd">
-                <h4 style="text-align: center;"><b>Nama Klien</b></h4>
-                <p style="font-size: 16px; text-align: left; margin: 40px 28px;">Lorem ipsum dolor sit amet, consectetur
-                adipiscing elit. Sed nibh purus, dapibus in semper nec, venenatis vel elit.
-                Nam id sem tristique lorem porttitor faucibus at id dolor.</p>
-              </div>
+          </div>
+        </div>
+        <div
+          @click="setActive(3)"
+          class="box">
+          <div class="cardd">
+            <div class="client">
+              <img :src="img_samira" class="img-client">
             </div>
-            </li>
-        </ul>
+            <div class="container-cardd">
+              <h4 style="text-align: center;"><b>Nama Klien 4</b></h4>
+              <p style="font-size: 16px; text-align: left; margin: 40px 28px;">Lorem ipsum dolor sit amet, consectetur
+              adipiscing elit. Sed nibh purus, dapibus in semper nec, venenatis vel elit.
+              Nam id sem tristique lorem porttitor faucibus at id dolor.</p>
+            </div>
+          </div>
+        </div>
+        <div
+          @click="setActive(4)"
+          class="box">
+          <div class="cardd">
+            <div class="client">
+              <img :src="img_samira" class="img-client">
+            </div>
+            <div class="container-cardd">
+              <h4 style="text-align: center;"><b>Nama Klien 5</b></h4>
+              <p style="font-size: 16px; text-align: left; margin: 40px 28px;">Lorem ipsum dolor sit amet, consectetur
+              adipiscing elit. Sed nibh purus, dapibus in semper nec, venenatis vel elit.
+              Nam id sem tristique lorem porttitor faucibus at id dolor.</p>
+            </div>
+          </div>
+        </div>
+        <div
+          @click="setActive(5)"
+          class="box">
+          <div class="cardd">
+            <div class="client">
+              <img :src="img_samira" class="img-client">
+            </div>
+            <div class="container-cardd">
+              <h4 style="text-align: center;"><b>Nama Klien 6</b></h4>
+              <p style="font-size: 16px; text-align: left; margin: 40px 28px;">Lorem ipsum dolor sit amet, consectetur
+              adipiscing elit. Sed nibh purus, dapibus in semper nec, venenatis vel elit.
+              Nam id sem tristique lorem porttitor faucibus at id dolor.</p>
+            </div>
+          </div>
+        </div>
+        <div
+          @click="setActive(6)"
+          class="box">
+          <div class="cardd">
+            <div class="client">
+              <img :src="img_samira" class="img-client">
+            </div>
+            <div class="container-cardd">
+              <h4 style="text-align: center;"><b>Nama Klien 7</b></h4>
+              <p style="font-size: 16px; text-align: left; margin: 40px 28px;">Lorem ipsum dolor sit amet, consectetur
+              adipiscing elit. Sed nibh purus, dapibus in semper nec, venenatis vel elit.
+              Nam id sem tristique lorem porttitor faucibus at id dolor.</p>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
-  <div class="button" @click="shiftRight()"><img src="https://image.ibb.co/dfPSw7/right_arrow.png" alt=""></div>
   </div>
 </div>
 </template>
@@ -144,45 +156,37 @@ export default {
       ],
       img_samira: [
         'https://i.pinimg.com/750x/b8/3c/e1/b83ce18dad1a797ed563a196b6b7944b.jpg'
-      ]
+      ],
+      box: 7,
+      distance: 17.5,
+      position: 2
     }
   },
+  mounted () {
+    this.setActive(this.position)
+  },
   methods: {
-    setFront () {
-
-    },
-    shiftLeft () {
+    setActive (position) {
       const boxes = document.querySelectorAll('.box')
-      const tmpNode = boxes[0]
-      boxes[0].className = 'box move-out-from-left'
-      setTimeout(function () {
-        if (boxes.length > 3) {
-          tmpNode.classList.add('box--hide')
-          boxes[3].className = 'box move-to-position2-from-left'
+      for (var i = 0; i < this.box; i++) {
+        const pos = i < position ? -1 * this.distance * (position - i) : this.distance * (position - i)
+        if (i < position) {
+          boxes[i].style.right = `${38 - pos}%`
+        } else if (i > position) {
+          boxes[i].style.right = `${pos + 38}%`
+        } else {
+          // boxes[i].className = position < this.position ? 'box move-to-position1-from-right' : 'box move-to-position1-from-left'
+          // boxes[i].style.transition = 'all .5s'
+          boxes[i].style.right = '38%'
         }
-        boxes[1].className = 'box move-to-position1-from-left'
-        boxes[2].className = 'box move-to-position3-from-left'
-        boxes[0].remove()
-        document.querySelector('.cards__container').appendChild(tmpNode)
-      }, 500)
-    },
-    shiftRight () {
-      const boxes = document.querySelectorAll('.box')
-      boxes[1].className = 'box move-out-from-right'
-      setTimeout(function () {
-        const noOfCards = boxes.length
-        if (noOfCards > 2) {
-          boxes[2].className = 'box box--hide'
+        if (i < (position - 2) || i > (position + 2)) {
+          boxes[i].style.display = 'none'
+        } else {
+          boxes[i].style.display = 'flex'
         }
-        const tmpNode = boxes[noOfCards - 1]
-        tmpNode.classList.remove('box--hide')
-        boxes[noOfCards - 1].remove()
-        const parentObj = document.querySelector('.cards__container')
-        parentObj.insertBefore(tmpNode, parentObj.firstChild)
-        tmpNode.className = 'box move-to-position1-from-right'
-        boxes[0].className = 'box move-to-position2-from-right'
-        boxes[1].className = 'box move-to-position3-from-right'
-      }, 500)
+        boxes[i].style.zIndex = position === i ? 50 : position > i ? 50 - ((position - i) * 10) : 50 - ((i - position) * 10)
+      }
+      this.position = position
     }
   }
 }
@@ -296,39 +300,14 @@ h4{
     display: flex;
     justify-content: center;
     align-items: center;
-    position: relative;
-    /* transition: 1s all; */
+    position: absolute;
+    transition-property: transform;
+    transition: 1s all;
 }
 
 .qwerty{
   display: flex;
   margin-top: 48px;
-}
-
-.box:nth-child(2n) {
-    transform: scale(0.85);
-    z-index: -1;
-}
-
-.box:nth-child(2) {
-  left: 5%;
-}
-
-.box:nth-child(4) {
-  left: -5%;
-}
-
-.box:nth-child(4n + 1) {
-    transform: scale(0.75);
-    z-index: -2;
-}
-
-.box:nth-child(1) {
-  left: 15%;
-}
-
-.box:nth-child(5) {
-  left: -15%;
 }
 
 .card__text-content {
