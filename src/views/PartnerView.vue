@@ -40,7 +40,7 @@
           class="box">
           <div class="cardd">
             <div class="client">
-              <img :src="img_samira" class="img-client">
+              <img src="../assets/abiyyu.png" class="img-client">
             </div>
             <div class="container-cardd">
               <h4 style="text-align: center;"><b>Nama Klien 1</b></h4>
@@ -55,7 +55,7 @@
           class="box">
           <div class="cardd">
             <div class="client">
-              <img :src="img_samira" class="img-client">
+              <img src="../assets/afifa.png" class="img-client">
             </div>
             <div class="container-cardd">
               <h4 style="text-align: center;"><b>Nama Klien 2</b></h4>
@@ -70,7 +70,7 @@
           class="box">
           <div class="cardd">
             <div class="client">
-              <img :src="img_samira" class="img-client">
+              <img src="../assets/aji.png" class="img-client">
             </div>
             <div class="container-cardd">
               <h4 style="text-align: center;"><b>Nama Klien 3</b></h4>
@@ -85,7 +85,7 @@
           class="box">
           <div class="cardd">
             <div class="client">
-              <img :src="img_samira" class="img-client">
+              <img src="../assets/barca.png" class="img-client">
             </div>
             <div class="container-cardd">
               <h4 style="text-align: center;"><b>Nama Klien 4</b></h4>
@@ -100,7 +100,7 @@
           class="box">
           <div class="cardd">
             <div class="client">
-              <img :src="img_samira" class="img-client">
+              <img src="../assets/fahri.png" class="img-client">
             </div>
             <div class="container-cardd">
               <h4 style="text-align: center;"><b>Nama Klien 5</b></h4>
@@ -115,7 +115,7 @@
           class="box">
           <div class="cardd">
             <div class="client">
-              <img :src="img_samira" class="img-client">
+              <img src="../assets/fitra.png" class="img-client">
             </div>
             <div class="container-cardd">
               <h4 style="text-align: center;"><b>Nama Klien 6</b></h4>
@@ -130,7 +130,7 @@
           class="box">
           <div class="cardd">
             <div class="client">
-              <img :src="img_samira" class="img-client">
+              <img src="../assets/iqbal.png" class="img-client">
             </div>
             <div class="container-cardd">
               <h4 style="text-align: center;"><b>Nama Klien 7</b></h4>
@@ -170,6 +170,7 @@ export default {
       const boxes = document.querySelectorAll('.box')
       for (var i = 0; i < this.box; i++) {
         const pos = i < position ? -1 * this.distance * (position - i) : this.distance * (position - i)
+        boxes[i].style.zIndex = position === i ? 50 : position > i ? 50 - ((position - i) * 10) : 50 - ((i - position) * 10)
         if (i < position) {
           boxes[i].style.right = `${38 - pos}%`
         } else if (i > position) {
@@ -184,7 +185,6 @@ export default {
         } else {
           boxes[i].style.display = 'flex'
         }
-        boxes[i].style.zIndex = position === i ? 50 : position > i ? 50 - ((position - i) * 10) : 50 - ((i - position) * 10)
       }
       this.position = position
     }
@@ -301,8 +301,7 @@ h4{
     justify-content: center;
     align-items: center;
     position: absolute;
-    transition-property: transform;
-    transition: 1s all;
+    transition: 1.5s all;
 }
 
 .qwerty{
